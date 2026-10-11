@@ -1,0 +1,9052 @@
+{
+  "meta": {
+    "source": "DKU-Campus-Map-2024-官方最新版.pdf",
+    "page": 1,
+    "map_width": 6229,
+    "map_height": 3494,
+    "coordinate_system": "origin at bottom-left of the map; +x to the right, +y upward",
+    "coordinate_mode": "raw map units",
+    "distance_unit": "px",
+    "scale": {
+      "meters_per_unit": null
+    },
+    "node_count": 150,
+    "edge_count": 207,
+    "public_node_count": 53,
+    "waypoint_count": 97,
+    "gate_count": 44,
+    "gate_rule": "node entry cost. Walking from u to v costs edge_weight + gate_cost(v). Neither endpoint of a route is charged: the origin is never entered, and the destination is exempt because a route ends there instead of passing through it. So a route costs (sum of its edge weights) + (gate_cost of every gate strictly inside it). Every gate_cost in this file is already the effective value.",
+    "generated_at": "2026-10-10T16:15:17.161Z"
+  },
+  "nodes": [
+    {
+      "id": "n8",
+      "name": "节点 8",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 2585.62,
+      "y": 2442.85,
+      "note": ""
+    },
+    {
+      "id": "n9",
+      "name": "Residence Hall",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 2977.36,
+      "y": 2435.38,
+      "note": ""
+    },
+    {
+      "id": "n10",
+      "name": "节点 10",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 2981.19,
+      "y": 2139.4,
+      "note": ""
+    },
+    {
+      "id": "n13",
+      "name": "Building E - North Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 4384.63,
+      "y": 2420.94,
+      "note": ""
+    },
+    {
+      "id": "n14",
+      "name": "节点 2",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4702.64,
+      "y": 2506.85,
+      "note": ""
+    },
+    {
+      "id": "n15",
+      "name": "节点 4",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4356.78,
+      "y": 2483.61,
+      "note": ""
+    },
+    {
+      "id": "n16",
+      "name": "节点 5",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4382.31,
+      "y": 2296.77,
+      "note": ""
+    },
+    {
+      "id": "n17",
+      "name": "节点 6",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4597.41,
+      "y": 2301.03,
+      "note": ""
+    },
+    {
+      "id": "n18",
+      "name": "节点 13",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4162.57,
+      "y": 2294.44,
+      "note": ""
+    },
+    {
+      "id": "n19",
+      "name": "节点 14",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4160.25,
+      "y": 2476.27,
+      "note": ""
+    },
+    {
+      "id": "n20",
+      "name": "节点 15",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 5001.3,
+      "y": 2303.77,
+      "note": ""
+    },
+    {
+      "id": "n21",
+      "name": "Building A - North Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 5015.23,
+      "y": 2447.28,
+      "note": ""
+    },
+    {
+      "id": "n22",
+      "name": "Building A - South Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 5005.98,
+      "y": 2367.61,
+      "note": ""
+    },
+    {
+      "id": "n23",
+      "name": "Building B - South Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 5051.6,
+      "y": 2581.53,
+      "note": ""
+    },
+    {
+      "id": "n24",
+      "name": "节点 19",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4990.47,
+      "y": 2151.35,
+      "note": ""
+    },
+    {
+      "id": "n25",
+      "name": "CCTE North Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 4783.11,
+      "y": 2234.14,
+      "note": ""
+    },
+    {
+      "id": "n26",
+      "name": "CCTE South Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 4785.18,
+      "y": 2082.12,
+      "note": ""
+    },
+    {
+      "id": "n27",
+      "name": "CCTW - North Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 4287.92,
+      "y": 2202.04,
+      "note": ""
+    },
+    {
+      "id": "n28",
+      "name": "CCTW - South Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 4288.69,
+      "y": 2087.9,
+      "note": ""
+    },
+    {
+      "id": "n29",
+      "name": "节点 24",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 5260.51,
+      "y": 2714.67,
+      "note": ""
+    },
+    {
+      "id": "n30",
+      "name": "节点 25",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 5263.6,
+      "y": 2908.87,
+      "note": ""
+    },
+    {
+      "id": "n31",
+      "name": "Building C - North Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 5081,
+      "y": 2826.47,
+      "note": ""
+    },
+    {
+      "id": "n32",
+      "name": "节点 27",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 5079.45,
+      "y": 2906.56,
+      "note": ""
+    },
+    {
+      "id": "n33",
+      "name": "节点 28",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4992.02,
+      "y": 2908.48,
+      "note": ""
+    },
+    {
+      "id": "n34",
+      "name": "Building D - South Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 4986.6,
+      "y": 2976.19,
+      "note": ""
+    },
+    {
+      "id": "n35",
+      "name": "节点 30",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4706.51,
+      "y": 2911.21,
+      "note": ""
+    },
+    {
+      "id": "n36",
+      "name": "节点 31",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4704.96,
+      "y": 2859.76,
+      "note": ""
+    },
+    {
+      "id": "n37",
+      "name": "节点 32",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4704.19,
+      "y": 2712.36,
+      "note": ""
+    },
+    {
+      "id": "n38",
+      "name": "节点 33",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4704.19,
+      "y": 2672.93,
+      "note": ""
+    },
+    {
+      "id": "n39",
+      "name": "节点 34",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4779.16,
+      "y": 2299.07,
+      "note": ""
+    },
+    {
+      "id": "n40",
+      "name": "Administration Building - South Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 5081.69,
+      "y": 1660.74,
+      "note": ""
+    },
+    {
+      "id": "n41",
+      "name": "Library - East Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 4592.69,
+      "y": 1798.1,
+      "note": ""
+    },
+    {
+      "id": "n42",
+      "name": "Library - West Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 4198.86,
+      "y": 1784.56,
+      "note": ""
+    },
+    {
+      "id": "n43",
+      "name": "节点 38",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4622.87,
+      "y": 1610.88,
+      "note": ""
+    },
+    {
+      "id": "n44",
+      "name": "WDR - North Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 3961.32,
+      "y": 1635.23,
+      "note": ""
+    },
+    {
+      "id": "n45",
+      "name": "WDR - West Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 3883.94,
+      "y": 1451.87,
+      "note": ""
+    },
+    {
+      "id": "n46",
+      "name": "WDR - South Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 3960.54,
+      "y": 1334.63,
+      "note": ""
+    },
+    {
+      "id": "n47",
+      "name": "WDR - East Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 4119.16,
+      "y": 1574.9,
+      "note": ""
+    },
+    {
+      "id": "n48",
+      "name": "节点 43",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4165.59,
+      "y": 1597.31,
+      "note": ""
+    },
+    {
+      "id": "n49",
+      "name": "节点 44",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4286.29,
+      "y": 1591.9,
+      "note": ""
+    },
+    {
+      "id": "n50",
+      "name": "节点 45",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4624.42,
+      "y": 1339.27,
+      "note": ""
+    },
+    {
+      "id": "n51",
+      "name": "节点 46",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4627.51,
+      "y": 1290.9,
+      "note": ""
+    },
+    {
+      "id": "n52",
+      "name": "节点 47",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3795.74,
+      "y": 2301.79,
+      "note": ""
+    },
+    {
+      "id": "n53",
+      "name": "节点 48",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3797.29,
+      "y": 2490.99,
+      "note": ""
+    },
+    {
+      "id": "n54",
+      "name": "节点 49",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4157.07,
+      "y": 2682.88,
+      "note": ""
+    },
+    {
+      "id": "n55",
+      "name": "节点 50",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4370.63,
+      "y": 2862.01,
+      "note": ""
+    },
+    {
+      "id": "n56",
+      "name": "节点 51",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4402.35,
+      "y": 2863.94,
+      "note": ""
+    },
+    {
+      "id": "n57",
+      "name": "Building H - South Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 4406.22,
+      "y": 2937.44,
+      "note": ""
+    },
+    {
+      "id": "n58",
+      "name": "节点 53",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4153.21,
+      "y": 2865.87,
+      "note": ""
+    },
+    {
+      "id": "n59",
+      "name": "节点 54",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3791.1,
+      "y": 2773.79,
+      "note": ""
+    },
+    {
+      "id": "n60",
+      "name": "节点 55",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3804.25,
+      "y": 3014.04,
+      "note": ""
+    },
+    {
+      "id": "n61",
+      "name": "节点 56",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4160.94,
+      "y": 3049.24,
+      "note": ""
+    },
+    {
+      "id": "n62",
+      "name": "节点 57",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4702.56,
+      "y": 3098.39,
+      "note": ""
+    },
+    {
+      "id": "n63",
+      "name": "节点 58",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 5266.62,
+      "y": 3120.43,
+      "note": ""
+    },
+    {
+      "id": "n64",
+      "name": "North Takeaway Locker",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4776.29,
+      "y": 3161.05,
+      "note": ""
+    },
+    {
+      "id": "n66",
+      "name": "节点 61",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4938.65,
+      "y": 1293.98,
+      "note": ""
+    },
+    {
+      "id": "n67",
+      "name": "Sports Complex - North Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 5519.79,
+      "y": 2261.87,
+      "note": ""
+    },
+    {
+      "id": "n68",
+      "name": "Sports Complex - South Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 5522.35,
+      "y": 2079.09,
+      "note": ""
+    },
+    {
+      "id": "n69",
+      "name": "Academic Building - East Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 3646.24,
+      "y": 2112.24,
+      "note": ""
+    },
+    {
+      "id": "n70",
+      "name": "Academic Building - West Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 3412.64,
+      "y": 2115.97,
+      "note": ""
+    },
+    {
+      "id": "n71",
+      "name": "Conference Center - East Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 2822.95,
+      "y": 2132.41,
+      "note": ""
+    },
+    {
+      "id": "n72",
+      "name": "Conference Center - West Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 2669.5,
+      "y": 2122.87,
+      "note": ""
+    },
+    {
+      "id": "n73",
+      "name": "West Gate",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 2179.82,
+      "y": 2128.74,
+      "note": ""
+    },
+    {
+      "id": "n74",
+      "name": "Building D - North Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 4989.05,
+      "y": 3041.42,
+      "note": ""
+    },
+    {
+      "id": "n75",
+      "name": "Building C - South Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 5084.5,
+      "y": 2747.51,
+      "note": ""
+    },
+    {
+      "id": "n76",
+      "name": "节点 66",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 5083.59,
+      "y": 2711.92,
+      "note": ""
+    },
+    {
+      "id": "n77",
+      "name": "Building G - North Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 4377.21,
+      "y": 2771.69,
+      "note": ""
+    },
+    {
+      "id": "n78",
+      "name": "Building G - South Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 4413.92,
+      "y": 2700.7,
+      "note": ""
+    },
+    {
+      "id": "n79",
+      "name": "节点 68",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4155.78,
+      "y": 2758.47,
+      "note": ""
+    },
+    {
+      "id": "n80",
+      "name": "节点 69",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4285.81,
+      "y": 2291.5,
+      "note": ""
+    },
+    {
+      "id": "n81",
+      "name": "节点 70",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4291.88,
+      "y": 2009.29,
+      "note": ""
+    },
+    {
+      "id": "n82",
+      "name": "节点 71",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4790.46,
+      "y": 1996.97,
+      "note": ""
+    },
+    {
+      "id": "n83",
+      "name": "节点 72",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4989.95,
+      "y": 2003.26,
+      "note": ""
+    },
+    {
+      "id": "n84",
+      "name": "节点 73",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 5814.97,
+      "y": 2000.26,
+      "note": ""
+    },
+    {
+      "id": "n85",
+      "name": "节点 74",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 5523.11,
+      "y": 2005.69,
+      "note": ""
+    },
+    {
+      "id": "n86",
+      "name": "节点 75",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4704.71,
+      "y": 2305.37,
+      "note": ""
+    },
+    {
+      "id": "n87",
+      "name": "CCTE - East Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 4928.02,
+      "y": 2148.28,
+      "note": ""
+    },
+    {
+      "id": "n88",
+      "name": "节点 77",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 5296.9,
+      "y": 2317.39,
+      "note": ""
+    },
+    {
+      "id": "n89",
+      "name": "节点 78",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 5262.57,
+      "y": 2494.93,
+      "note": ""
+    },
+    {
+      "id": "n90",
+      "name": "节点 79",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4156.07,
+      "y": 1782.48,
+      "note": ""
+    },
+    {
+      "id": "n91",
+      "name": "节点 80",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3966.45,
+      "y": 1706.2,
+      "note": ""
+    },
+    {
+      "id": "n92",
+      "name": "节点 81",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4157.45,
+      "y": 1707.52,
+      "note": ""
+    },
+    {
+      "id": "n93",
+      "name": "节点 82",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3635.47,
+      "y": 2272.64,
+      "note": ""
+    },
+    {
+      "id": "n94",
+      "name": "节点 83",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3638.15,
+      "y": 1733.99,
+      "note": ""
+    },
+    {
+      "id": "n95",
+      "name": "节点 84",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3635.45,
+      "y": 2314.1,
+      "note": ""
+    },
+    {
+      "id": "n96",
+      "name": "Innovation Building - North Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 3108.16,
+      "y": 1494.53,
+      "note": ""
+    },
+    {
+      "id": "n97",
+      "name": "Innovation Building - South Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 3104.21,
+      "y": 1312.77,
+      "note": ""
+    },
+    {
+      "id": "n98",
+      "name": "节点 87",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3792.74,
+      "y": 1710.14,
+      "note": ""
+    },
+    {
+      "id": "n99",
+      "name": "节点 88",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3796.76,
+      "y": 2108.76,
+      "note": ""
+    },
+    {
+      "id": "n100",
+      "name": "节点 89",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3798.72,
+      "y": 1446.9,
+      "note": ""
+    },
+    {
+      "id": "n101",
+      "name": "节点 90",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3790.79,
+      "y": 1608.1,
+      "note": ""
+    },
+    {
+      "id": "n102",
+      "name": "节点 91",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3789.45,
+      "y": 1527.87,
+      "note": ""
+    },
+    {
+      "id": "n103",
+      "name": "节点 92",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3107.55,
+      "y": 1535.13,
+      "note": ""
+    },
+    {
+      "id": "n104",
+      "name": "节点 93",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3134.08,
+      "y": 1600.8,
+      "note": ""
+    },
+    {
+      "id": "n105",
+      "name": "节点 94",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3130.11,
+      "y": 1790.51,
+      "note": ""
+    },
+    {
+      "id": "n106",
+      "name": "节点 95",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 2904.55,
+      "y": 1794.48,
+      "note": ""
+    },
+    {
+      "id": "n107",
+      "name": "节点 96",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 2794.43,
+      "y": 2298.61,
+      "note": ""
+    },
+    {
+      "id": "n108",
+      "name": "节点 97",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4640.31,
+      "y": 1997.91,
+      "note": ""
+    },
+    {
+      "id": "n109",
+      "name": "节点 98",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4939.8,
+      "y": 1878.14,
+      "note": ""
+    },
+    {
+      "id": "n110",
+      "name": "节点 99",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3960.75,
+      "y": 1200.5,
+      "note": ""
+    },
+    {
+      "id": "n111",
+      "name": "节点 100",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4161.91,
+      "y": 1202.27,
+      "note": ""
+    },
+    {
+      "id": "n112",
+      "name": "节点 101",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3199.1,
+      "y": 2133.48,
+      "note": ""
+    },
+    {
+      "id": "n113",
+      "name": "节点 21",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 5008.57,
+      "y": 2519.1,
+      "note": ""
+    },
+    {
+      "id": "n114",
+      "name": "节点 102",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 5056.79,
+      "y": 2516.6,
+      "note": ""
+    },
+    {
+      "id": "n115",
+      "name": "Building H - North Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 4405.69,
+      "y": 2999.44,
+      "note": ""
+    },
+    {
+      "id": "n116",
+      "name": "节点 104",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4410.65,
+      "y": 3074.97,
+      "note": ""
+    },
+    {
+      "id": "n117",
+      "name": "节点 105",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4784.56,
+      "y": 3103.42,
+      "note": ""
+    },
+    {
+      "id": "n118",
+      "name": "节点 106",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4991.16,
+      "y": 3110.22,
+      "note": ""
+    },
+    {
+      "id": "n119",
+      "name": "Visitor Center - South Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 5080.35,
+      "y": 1353.83,
+      "note": ""
+    },
+    {
+      "id": "n120",
+      "name": "Visitor Center - North Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 5075.49,
+      "y": 1483.4,
+      "note": ""
+    },
+    {
+      "id": "n121",
+      "name": "节点 109",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 5081.44,
+      "y": 1290.14,
+      "note": ""
+    },
+    {
+      "id": "n122",
+      "name": "节点 110",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4935.8,
+      "y": 1496.41,
+      "note": ""
+    },
+    {
+      "id": "n123",
+      "name": "节点 111",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4631.13,
+      "y": 1878.42,
+      "note": ""
+    },
+    {
+      "id": "n124",
+      "name": "节点 112",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3435.71,
+      "y": 2440.29,
+      "note": ""
+    },
+    {
+      "id": "n125",
+      "name": "Building F - South Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 4353.29,
+      "y": 2549.71,
+      "note": ""
+    },
+    {
+      "id": "n126",
+      "name": "Building F - North Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 4341.17,
+      "y": 2621.65,
+      "note": ""
+    },
+    {
+      "id": "n127",
+      "name": "Red Cage",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4449.23,
+      "y": 2663.01,
+      "note": ""
+    },
+    {
+      "id": "n128",
+      "name": "节点 116",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4337.43,
+      "y": 2651.94,
+      "note": ""
+    },
+    {
+      "id": "n129",
+      "name": "Administration Building - West Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 4970.63,
+      "y": 1759.06,
+      "note": ""
+    },
+    {
+      "id": "n130",
+      "name": "节点 118",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4936.48,
+      "y": 1758.29,
+      "note": ""
+    },
+    {
+      "id": "n131",
+      "name": "节点 119",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3427.13,
+      "y": 2765.17,
+      "note": ""
+    },
+    {
+      "id": "n132",
+      "name": "节点 120",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 2386.05,
+      "y": 2445.73,
+      "note": ""
+    },
+    {
+      "id": "n133",
+      "name": "节点 121",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 2387.41,
+      "y": 2255.12,
+      "note": ""
+    },
+    {
+      "id": "n134",
+      "name": "节点 122",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 2376.14,
+      "y": 2125.87,
+      "note": ""
+    },
+    {
+      "id": "n135",
+      "name": "节点 123",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 2762.65,
+      "y": 1608.71,
+      "note": ""
+    },
+    {
+      "id": "n136",
+      "name": "节点 124",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3448.31,
+      "y": 1530.7,
+      "note": ""
+    },
+    {
+      "id": "n137",
+      "name": "节点 125",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3406.38,
+      "y": 1606.11,
+      "note": ""
+    },
+    {
+      "id": "n138",
+      "name": "节点 126",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3296.73,
+      "y": 2073.62,
+      "note": ""
+    },
+    {
+      "id": "n139",
+      "name": "节点 127",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3274.85,
+      "y": 1612.07,
+      "note": ""
+    },
+    {
+      "id": "n140",
+      "name": "South East Gate",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3106.63,
+      "y": 875.99,
+      "note": ""
+    },
+    {
+      "id": "n141",
+      "name": "节点 129",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3105.48,
+      "y": 1169.19,
+      "note": ""
+    },
+    {
+      "id": "n142",
+      "name": "节点 130",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3801.26,
+      "y": 1199.94,
+      "note": ""
+    },
+    {
+      "id": "n143",
+      "name": "节点 131",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4168.04,
+      "y": 1995.92,
+      "note": ""
+    },
+    {
+      "id": "n144",
+      "name": "节点 132",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 2387.69,
+      "y": 2298.2,
+      "note": ""
+    },
+    {
+      "id": "n145",
+      "name": "CCTW - East Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 4574.31,
+      "y": 2120.13,
+      "note": ""
+    },
+    {
+      "id": "n146",
+      "name": "CCTE - West Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 4635.18,
+      "y": 2120.63,
+      "note": ""
+    },
+    {
+      "id": "n147",
+      "name": "节点 134",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4371.89,
+      "y": 2130.64,
+      "note": ""
+    },
+    {
+      "id": "n148",
+      "name": "South Gate 1",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4626.85,
+      "y": 1000.02,
+      "note": ""
+    },
+    {
+      "id": "n149",
+      "name": "South Gate 2",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 4953.46,
+      "y": 1014.67,
+      "note": ""
+    },
+    {
+      "id": "n150",
+      "name": "North Gate",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 5713.68,
+      "y": 3118.06,
+      "note": ""
+    },
+    {
+      "id": "n152",
+      "name": "Water Pavilion",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3028.84,
+      "y": 2095.11,
+      "note": ""
+    },
+    {
+      "id": "n153",
+      "name": "Building B - North Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 5069.7,
+      "y": 2658.02,
+      "note": ""
+    },
+    {
+      "id": "n154",
+      "name": "Building E - South Entrance",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 4383.58,
+      "y": 2332.57,
+      "note": ""
+    },
+    {
+      "id": "n155",
+      "name": "Graduate Students Center",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 4131.71,
+      "y": 2370.19,
+      "note": ""
+    },
+    {
+      "id": "n156",
+      "name": "Service Building 2",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": true,
+      "gate_cost": 100,
+      "x": 4076.09,
+      "y": 2840.07,
+      "note": ""
+    },
+    {
+      "id": "n157",
+      "name": "Service Building 1",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "public",
+      "role_label": "正式节点",
+      "selectable": true,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3568.2,
+      "y": 2869.31,
+      "note": ""
+    },
+    {
+      "id": "n158",
+      "name": "节点 1",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 2820.39,
+      "y": 1276.4,
+      "note": ""
+    },
+    {
+      "id": "n159",
+      "name": "节点 3",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3434.76,
+      "y": 2377.89,
+      "note": ""
+    },
+    {
+      "id": "n160",
+      "name": "节点 7",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3797.54,
+      "y": 2374.14,
+      "note": ""
+    },
+    {
+      "id": "n161",
+      "name": "节点 9",
+      "type": "junction",
+      "type_label": "岔路口",
+      "role": "waypoint",
+      "role_label": "路径点",
+      "selectable": false,
+      "gate": false,
+      "gate_cost": 0,
+      "x": 3635.66,
+      "y": 2377.59,
+      "note": ""
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "name": "边 1",
+      "from": "n35",
+      "to": "n36",
+      "from_name": "节点 30",
+      "to_name": "节点 31",
+      "weight": 51.47,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e2",
+      "name": "边 2",
+      "from": "n36",
+      "to": "n37",
+      "from_name": "节点 31",
+      "to_name": "节点 32",
+      "weight": 147.4,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e3",
+      "name": "边 3",
+      "from": "n37",
+      "to": "n38",
+      "from_name": "节点 32",
+      "to_name": "节点 33",
+      "weight": 39.43,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e4",
+      "name": "边 4",
+      "from": "n14",
+      "to": "n38",
+      "from_name": "节点 2",
+      "to_name": "节点 33",
+      "weight": 166.09,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e5",
+      "name": "边 5",
+      "from": "n15",
+      "to": "n14",
+      "from_name": "节点 4",
+      "to_name": "节点 2",
+      "weight": 346.64,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e6",
+      "name": "边 6",
+      "from": "n15",
+      "to": "n13",
+      "from_name": "节点 4",
+      "to_name": "Building E - North Entrance",
+      "weight": 68.58,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e8",
+      "name": "边 8",
+      "from": "n16",
+      "to": "n17",
+      "from_name": "节点 5",
+      "to_name": "节点 6",
+      "weight": 215.14,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e10",
+      "name": "边 10",
+      "from": "n25",
+      "to": "n26",
+      "from_name": "CCTE North Entrance",
+      "to_name": "CCTE South Entrance",
+      "weight": 152.03,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e11",
+      "name": "边 11",
+      "from": "n33",
+      "to": "n32",
+      "from_name": "节点 28",
+      "to_name": "节点 27",
+      "weight": 87.45,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e12",
+      "name": "边 12",
+      "from": "n32",
+      "to": "n30",
+      "from_name": "节点 27",
+      "to_name": "节点 25",
+      "weight": 184.16,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e13",
+      "name": "边 13",
+      "from": "n30",
+      "to": "n29",
+      "from_name": "节点 25",
+      "to_name": "节点 24",
+      "weight": 194.22,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e14",
+      "name": "边 14",
+      "from": "n29",
+      "to": "n63",
+      "from_name": "节点 24",
+      "to_name": "节点 58",
+      "weight": 405.81,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e15",
+      "name": "边 15",
+      "from": "n74",
+      "to": "n34",
+      "from_name": "Building D - North Entrance",
+      "to_name": "Building D - South Entrance",
+      "weight": 65.28,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e16",
+      "name": "边 16",
+      "from": "n34",
+      "to": "n33",
+      "from_name": "Building D - South Entrance",
+      "to_name": "节点 28",
+      "weight": 67.93,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e17",
+      "name": "边 17",
+      "from": "n33",
+      "to": "n35",
+      "from_name": "节点 28",
+      "to_name": "节点 30",
+      "weight": 285.52,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e18",
+      "name": "边 18",
+      "from": "n58",
+      "to": "n55",
+      "from_name": "节点 53",
+      "to_name": "节点 50",
+      "weight": 217.45,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e19",
+      "name": "边 19",
+      "from": "n55",
+      "to": "n56",
+      "from_name": "节点 50",
+      "to_name": "节点 51",
+      "weight": 31.78,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e20",
+      "name": "边 20",
+      "from": "n56",
+      "to": "n36",
+      "from_name": "节点 51",
+      "to_name": "节点 31",
+      "weight": 302.64,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e21",
+      "name": "边 21",
+      "from": "n57",
+      "to": "n56",
+      "from_name": "Building H - South Entrance",
+      "to_name": "节点 51",
+      "weight": 73.6,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e22",
+      "name": "边 22",
+      "from": "n55",
+      "to": "n77",
+      "from_name": "节点 50",
+      "to_name": "Building G - North Entrance",
+      "weight": 90.56,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e23",
+      "name": "边 23",
+      "from": "n77",
+      "to": "n78",
+      "from_name": "Building G - North Entrance",
+      "to_name": "Building G - South Entrance",
+      "weight": 79.92,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e24",
+      "name": "边 24",
+      "from": "n78",
+      "to": "n38",
+      "from_name": "Building G - South Entrance",
+      "to_name": "节点 33",
+      "weight": 291.6,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e26",
+      "name": "边 26",
+      "from": "n58",
+      "to": "n61",
+      "from_name": "节点 53",
+      "to_name": "节点 56",
+      "weight": 183.53,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e27",
+      "name": "边 27",
+      "from": "n61",
+      "to": "n60",
+      "from_name": "节点 56",
+      "to_name": "节点 55",
+      "weight": 358.42,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e28",
+      "name": "边 28",
+      "from": "n60",
+      "to": "n59",
+      "from_name": "节点 55",
+      "to_name": "节点 54",
+      "weight": 240.61,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e29",
+      "name": "边 25",
+      "from": "n58",
+      "to": "n79",
+      "from_name": "节点 53",
+      "to_name": "节点 68",
+      "weight": 107.43,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e30",
+      "name": "边 29",
+      "from": "n79",
+      "to": "n54",
+      "from_name": "节点 68",
+      "to_name": "节点 49",
+      "weight": 75.6,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e31",
+      "name": "边 30",
+      "from": "n79",
+      "to": "n59",
+      "from_name": "节点 68",
+      "to_name": "节点 54",
+      "weight": 365,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e32",
+      "name": "边 31",
+      "from": "n54",
+      "to": "n19",
+      "from_name": "节点 49",
+      "to_name": "节点 14",
+      "weight": 206.63,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e33",
+      "name": "边 32",
+      "from": "n19",
+      "to": "n15",
+      "from_name": "节点 14",
+      "to_name": "节点 4",
+      "weight": 196.67,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e34",
+      "name": "边 33",
+      "from": "n18",
+      "to": "n19",
+      "from_name": "节点 13",
+      "to_name": "节点 14",
+      "weight": 181.84,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e35",
+      "name": "边 34",
+      "from": "n19",
+      "to": "n53",
+      "from_name": "节点 14",
+      "to_name": "节点 48",
+      "weight": 363.26,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e36",
+      "name": "边 35",
+      "from": "n53",
+      "to": "n59",
+      "from_name": "节点 48",
+      "to_name": "节点 54",
+      "weight": 282.87,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e37",
+      "name": "边 36",
+      "from": "n18",
+      "to": "n80",
+      "from_name": "节点 13",
+      "to_name": "节点 69",
+      "weight": 123.28,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e38",
+      "name": "边 37",
+      "from": "n80",
+      "to": "n27",
+      "from_name": "节点 69",
+      "to_name": "CCTW - North Entrance",
+      "weight": 89.48,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e39",
+      "name": "边 38",
+      "from": "n80",
+      "to": "n16",
+      "from_name": "节点 69",
+      "to_name": "节点 5",
+      "weight": 96.64,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e40",
+      "name": "边 39",
+      "from": "n27",
+      "to": "n28",
+      "from_name": "CCTW - North Entrance",
+      "to_name": "CCTW - South Entrance",
+      "weight": 114.14,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e41",
+      "name": "边 40",
+      "from": "n81",
+      "to": "n28",
+      "from_name": "节点 70",
+      "to_name": "CCTW - South Entrance",
+      "weight": 78.67,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e43",
+      "name": "边 42",
+      "from": "n82",
+      "to": "n83",
+      "from_name": "节点 71",
+      "to_name": "节点 72",
+      "weight": 199.59,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e44",
+      "name": "边 43",
+      "from": "n83",
+      "to": "n24",
+      "from_name": "节点 72",
+      "to_name": "节点 19",
+      "weight": 148.09,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e45",
+      "name": "边 44",
+      "from": "n24",
+      "to": "n20",
+      "from_name": "节点 19",
+      "to_name": "节点 15",
+      "weight": 152.8,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e46",
+      "name": "边 45",
+      "from": "n20",
+      "to": "n22",
+      "from_name": "节点 15",
+      "to_name": "Building A - South Entrance",
+      "weight": 64.01,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e47",
+      "name": "边 46",
+      "from": "n22",
+      "to": "n21",
+      "from_name": "Building A - South Entrance",
+      "to_name": "Building A - North Entrance",
+      "weight": 80.21,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e49",
+      "name": "边 48",
+      "from": "n20",
+      "to": "n39",
+      "from_name": "节点 15",
+      "to_name": "节点 34",
+      "weight": 222.19,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e50",
+      "name": "边 49",
+      "from": "n39",
+      "to": "n25",
+      "from_name": "节点 34",
+      "to_name": "CCTE North Entrance",
+      "weight": 65.05,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e51",
+      "name": "边 50",
+      "from": "n39",
+      "to": "n86",
+      "from_name": "节点 34",
+      "to_name": "节点 75",
+      "weight": 74.72,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e52",
+      "name": "边 51",
+      "from": "n86",
+      "to": "n14",
+      "from_name": "节点 75",
+      "to_name": "节点 2",
+      "weight": 201.49,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e53",
+      "name": "边 52",
+      "from": "n86",
+      "to": "n17",
+      "from_name": "节点 75",
+      "to_name": "节点 6",
+      "weight": 107.39,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e54",
+      "name": "边 53",
+      "from": "n87",
+      "to": "n24",
+      "from_name": "CCTE - East Entrance",
+      "to_name": "节点 19",
+      "weight": 62.53,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e55",
+      "name": "边 54",
+      "from": "n83",
+      "to": "n85",
+      "from_name": "节点 72",
+      "to_name": "节点 74",
+      "weight": 533.17,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e56",
+      "name": "边 55",
+      "from": "n85",
+      "to": "n68",
+      "from_name": "节点 74",
+      "to_name": "Sports Complex - South Entrance",
+      "weight": 73.4,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e57",
+      "name": "边 56",
+      "from": "n68",
+      "to": "n67",
+      "from_name": "Sports Complex - South Entrance",
+      "to_name": "Sports Complex - North Entrance",
+      "weight": 182.8,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e58",
+      "name": "边 57",
+      "from": "n32",
+      "to": "n31",
+      "from_name": "节点 27",
+      "to_name": "Building C - North Entrance",
+      "weight": 80.1,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e59",
+      "name": "边 58",
+      "from": "n31",
+      "to": "n75",
+      "from_name": "Building C - North Entrance",
+      "to_name": "Building C - South Entrance",
+      "weight": 79.04,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e60",
+      "name": "边 59",
+      "from": "n75",
+      "to": "n76",
+      "from_name": "Building C - South Entrance",
+      "to_name": "节点 66",
+      "weight": 35.6,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e61",
+      "name": "边 60",
+      "from": "n76",
+      "to": "n29",
+      "from_name": "节点 66",
+      "to_name": "节点 24",
+      "weight": 176.94,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e62",
+      "name": "边 61",
+      "from": "n29",
+      "to": "n89",
+      "from_name": "节点 24",
+      "to_name": "节点 78",
+      "weight": 219.75,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e63",
+      "name": "边 62",
+      "from": "n89",
+      "to": "n88",
+      "from_name": "节点 78",
+      "to_name": "节点 77",
+      "weight": 180.83,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e64",
+      "name": "边 63",
+      "from": "n88",
+      "to": "n67",
+      "from_name": "节点 77",
+      "to_name": "Sports Complex - North Entrance",
+      "weight": 229.7,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e65",
+      "name": "边 64",
+      "from": "n88",
+      "to": "n20",
+      "from_name": "节点 77",
+      "to_name": "节点 15",
+      "weight": 295.91,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e66",
+      "name": "边 65",
+      "from": "n26",
+      "to": "n82",
+      "from_name": "CCTE South Entrance",
+      "to_name": "节点 71",
+      "weight": 85.31,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e68",
+      "name": "边 66",
+      "from": "n41",
+      "to": "n42",
+      "from_name": "Library - East Entrance",
+      "to_name": "Library - West Entrance",
+      "weight": 394.06,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e70",
+      "name": "边 68",
+      "from": "n52",
+      "to": "n99",
+      "from_name": "节点 47",
+      "to_name": "节点 88",
+      "weight": 193.03,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e71",
+      "name": "边 69",
+      "from": "n99",
+      "to": "n69",
+      "from_name": "节点 88",
+      "to_name": "Academic Building - East Entrance",
+      "weight": 150.56,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e72",
+      "name": "边 70",
+      "from": "n99",
+      "to": "n98",
+      "from_name": "节点 88",
+      "to_name": "节点 87",
+      "weight": 398.64,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e73",
+      "name": "边 71",
+      "from": "n98",
+      "to": "n91",
+      "from_name": "节点 87",
+      "to_name": "节点 80",
+      "weight": 173.75,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e74",
+      "name": "边 72",
+      "from": "n91",
+      "to": "n92",
+      "from_name": "节点 80",
+      "to_name": "节点 81",
+      "weight": 191,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e75",
+      "name": "边 73",
+      "from": "n92",
+      "to": "n90",
+      "from_name": "节点 81",
+      "to_name": "节点 79",
+      "weight": 74.97,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e76",
+      "name": "边 74",
+      "from": "n90",
+      "to": "n42",
+      "from_name": "节点 79",
+      "to_name": "Library - West Entrance",
+      "weight": 42.84,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e77",
+      "name": "边 75",
+      "from": "n92",
+      "to": "n48",
+      "from_name": "节点 81",
+      "to_name": "节点 43",
+      "weight": 110.51,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e78",
+      "name": "边 76",
+      "from": "n48",
+      "to": "n49",
+      "from_name": "节点 43",
+      "to_name": "节点 44",
+      "weight": 120.82,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e79",
+      "name": "边 77",
+      "from": "n47",
+      "to": "n48",
+      "from_name": "WDR - East Entrance",
+      "to_name": "节点 43",
+      "weight": 51.56,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e80",
+      "name": "边 78",
+      "from": "n97",
+      "to": "n96",
+      "from_name": "Innovation Building - South Entrance",
+      "to_name": "Innovation Building - North Entrance",
+      "weight": 181.8,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e81",
+      "name": "边 79",
+      "from": "n96",
+      "to": "n103",
+      "from_name": "Innovation Building - North Entrance",
+      "to_name": "节点 92",
+      "weight": 40.6,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e82",
+      "name": "边 80",
+      "from": "n103",
+      "to": "n104",
+      "from_name": "节点 92",
+      "to_name": "节点 93",
+      "weight": 70.83,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e83",
+      "name": "边 81",
+      "from": "n104",
+      "to": "n105",
+      "from_name": "节点 93",
+      "to_name": "节点 94",
+      "weight": 189.75,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e84",
+      "name": "边 82",
+      "from": "n105",
+      "to": "n106",
+      "from_name": "节点 94",
+      "to_name": "节点 95",
+      "weight": 225.59,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e85",
+      "name": "边 83",
+      "from": "n106",
+      "to": "n71",
+      "from_name": "节点 95",
+      "to_name": "Conference Center - East Entrance",
+      "weight": 347.64,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e86",
+      "name": "边 84",
+      "from": "n71",
+      "to": "n10",
+      "from_name": "Conference Center - East Entrance",
+      "to_name": "节点 10",
+      "weight": 158.39,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e87",
+      "name": "边 85",
+      "from": "n107",
+      "to": "n71",
+      "from_name": "节点 96",
+      "to_name": "Conference Center - East Entrance",
+      "weight": 168.63,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e88",
+      "name": "边 86",
+      "from": "n71",
+      "to": "n72",
+      "from_name": "Conference Center - East Entrance",
+      "to_name": "Conference Center - West Entrance",
+      "weight": 153.75,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e89",
+      "name": "边 87",
+      "from": "n70",
+      "to": "n69",
+      "from_name": "Academic Building - West Entrance",
+      "to_name": "Academic Building - East Entrance",
+      "weight": 233.63,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e90",
+      "name": "边 88",
+      "from": "n69",
+      "to": "n93",
+      "from_name": "Academic Building - East Entrance",
+      "to_name": "节点 82",
+      "weight": 160.76,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e91",
+      "name": "边 89",
+      "from": "n93",
+      "to": "n95",
+      "from_name": "节点 82",
+      "to_name": "节点 84",
+      "weight": 41.46,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e92",
+      "name": "边 90",
+      "from": "n94",
+      "to": "n98",
+      "from_name": "节点 83",
+      "to_name": "节点 87",
+      "weight": 156.42,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e93",
+      "name": "边 91",
+      "from": "n94",
+      "to": "n69",
+      "from_name": "节点 83",
+      "to_name": "Academic Building - East Entrance",
+      "weight": 378.34,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e94",
+      "name": "边 41",
+      "from": "n81",
+      "to": "n108",
+      "from_name": "节点 70",
+      "to_name": "节点 97",
+      "weight": 348.62,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e95",
+      "name": "边 92",
+      "from": "n82",
+      "to": "n108",
+      "from_name": "节点 71",
+      "to_name": "节点 97",
+      "weight": 150.15,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e97",
+      "name": "边 94",
+      "from": "n41",
+      "to": "n43",
+      "from_name": "Library - East Entrance",
+      "to_name": "节点 38",
+      "weight": 189.64,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e98",
+      "name": "边 95",
+      "from": "n43",
+      "to": "n49",
+      "from_name": "节点 38",
+      "to_name": "节点 44",
+      "weight": 337.11,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e99",
+      "name": "边 96",
+      "from": "n49",
+      "to": "n50",
+      "from_name": "节点 44",
+      "to_name": "节点 45",
+      "weight": 422.08,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e100",
+      "name": "边 97",
+      "from": "n50",
+      "to": "n43",
+      "from_name": "节点 45",
+      "to_name": "节点 38",
+      "weight": 271.61,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e101",
+      "name": "边 98",
+      "from": "n50",
+      "to": "n51",
+      "from_name": "节点 45",
+      "to_name": "节点 46",
+      "weight": 48.47,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e102",
+      "name": "边 99",
+      "from": "n51",
+      "to": "n66",
+      "from_name": "节点 46",
+      "to_name": "节点 61",
+      "weight": 311.16,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e104",
+      "name": "边 101",
+      "from": "n109",
+      "to": "n83",
+      "from_name": "节点 98",
+      "to_name": "节点 72",
+      "weight": 134.8,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e105",
+      "name": "边 102",
+      "from": "n98",
+      "to": "n101",
+      "from_name": "节点 87",
+      "to_name": "节点 90",
+      "weight": 102.06,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e106",
+      "name": "边 103",
+      "from": "n101",
+      "to": "n102",
+      "from_name": "节点 90",
+      "to_name": "节点 91",
+      "weight": 80.24,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e107",
+      "name": "边 104",
+      "from": "n102",
+      "to": "n100",
+      "from_name": "节点 91",
+      "to_name": "节点 89",
+      "weight": 81.5,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e108",
+      "name": "边 105",
+      "from": "n100",
+      "to": "n45",
+      "from_name": "节点 89",
+      "to_name": "WDR - West Entrance",
+      "weight": 85.36,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e109",
+      "name": "边 106",
+      "from": "n45",
+      "to": "n44",
+      "from_name": "WDR - West Entrance",
+      "to_name": "WDR - North Entrance",
+      "weight": 199.02,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e110",
+      "name": "边 107",
+      "from": "n44",
+      "to": "n91",
+      "from_name": "WDR - North Entrance",
+      "to_name": "节点 80",
+      "weight": 71.16,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e111",
+      "name": "边 108",
+      "from": "n45",
+      "to": "n46",
+      "from_name": "WDR - West Entrance",
+      "to_name": "WDR - South Entrance",
+      "weight": 140.05,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e112",
+      "name": "边 109",
+      "from": "n110",
+      "to": "n46",
+      "from_name": "节点 99",
+      "to_name": "WDR - South Entrance",
+      "weight": 134.13,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e113",
+      "name": "边 110",
+      "from": "n111",
+      "to": "n110",
+      "from_name": "节点 100",
+      "to_name": "节点 99",
+      "weight": 201.17,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e114",
+      "name": "边 111",
+      "from": "n111",
+      "to": "n48",
+      "from_name": "节点 100",
+      "to_name": "节点 43",
+      "weight": 395.06,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e115",
+      "name": "边 112",
+      "from": "n111",
+      "to": "n51",
+      "from_name": "节点 100",
+      "to_name": "节点 46",
+      "weight": 473.96,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e116",
+      "name": "边 113",
+      "from": "n10",
+      "to": "n112",
+      "from_name": "节点 10",
+      "to_name": "节点 101",
+      "weight": 217.99,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e117",
+      "name": "边 114",
+      "from": "n112",
+      "to": "n70",
+      "from_name": "节点 101",
+      "to_name": "Academic Building - West Entrance",
+      "weight": 214.26,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e118",
+      "name": "边 115",
+      "from": "n14",
+      "to": "n113",
+      "from_name": "节点 2",
+      "to_name": "节点 21",
+      "weight": 306.18,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e120",
+      "name": "边 117",
+      "from": "n113",
+      "to": "n21",
+      "from_name": "节点 21",
+      "to_name": "Building A - North Entrance",
+      "weight": 72.13,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e121",
+      "name": "边 47",
+      "from": "n113",
+      "to": "n114",
+      "from_name": "节点 21",
+      "to_name": "节点 102",
+      "weight": 48.28,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e122",
+      "name": "边 116",
+      "from": "n114",
+      "to": "n23",
+      "from_name": "节点 102",
+      "to_name": "Building B - South Entrance",
+      "weight": 65.14,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e124",
+      "name": "边 119",
+      "from": "n61",
+      "to": "n116",
+      "from_name": "节点 56",
+      "to_name": "节点 104",
+      "weight": 251.03,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e125",
+      "name": "边 120",
+      "from": "n116",
+      "to": "n62",
+      "from_name": "节点 104",
+      "to_name": "节点 57",
+      "weight": 292.85,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e126",
+      "name": "边 121",
+      "from": "n116",
+      "to": "n115",
+      "from_name": "节点 104",
+      "to_name": "Building H - North Entrance",
+      "weight": 75.69,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e127",
+      "name": "边 122",
+      "from": "n115",
+      "to": "n57",
+      "from_name": "Building H - North Entrance",
+      "to_name": "Building H - South Entrance",
+      "weight": 62,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e128",
+      "name": "边 123",
+      "from": "n62",
+      "to": "n117",
+      "from_name": "节点 57",
+      "to_name": "节点 105",
+      "weight": 82.15,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e129",
+      "name": "边 124",
+      "from": "n117",
+      "to": "n118",
+      "from_name": "节点 105",
+      "to_name": "节点 106",
+      "weight": 206.71,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e130",
+      "name": "边 125",
+      "from": "n118",
+      "to": "n74",
+      "from_name": "节点 106",
+      "to_name": "Building D - North Entrance",
+      "weight": 68.83,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e131",
+      "name": "边 126",
+      "from": "n64",
+      "to": "n117",
+      "from_name": "North Takeaway Locker",
+      "to_name": "节点 105",
+      "weight": 58.22,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e132",
+      "name": "边 127",
+      "from": "n62",
+      "to": "n35",
+      "from_name": "节点 57",
+      "to_name": "节点 30",
+      "weight": 187.22,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e134",
+      "name": "边 129",
+      "from": "n95",
+      "to": "n52",
+      "from_name": "节点 84",
+      "to_name": "节点 47",
+      "weight": 160.76,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e135",
+      "name": "边 130",
+      "from": "n66",
+      "to": "n121",
+      "from_name": "节点 61",
+      "to_name": "节点 109",
+      "weight": 142.84,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e136",
+      "name": "边 131",
+      "from": "n121",
+      "to": "n119",
+      "from_name": "节点 109",
+      "to_name": "Visitor Center - South Entrance",
+      "weight": 63.7,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e137",
+      "name": "边 132",
+      "from": "n119",
+      "to": "n120",
+      "from_name": "Visitor Center - South Entrance",
+      "to_name": "Visitor Center - North Entrance",
+      "weight": 129.66,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e138",
+      "name": "边 133",
+      "from": "n120",
+      "to": "n40",
+      "from_name": "Visitor Center - North Entrance",
+      "to_name": "Administration Building - South Entrance",
+      "weight": 177.45,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e139",
+      "name": "边 100",
+      "from": "n66",
+      "to": "n122",
+      "from_name": "节点 61",
+      "to_name": "节点 110",
+      "weight": 202.45,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e140",
+      "name": "边 134",
+      "from": "n122",
+      "to": "n120",
+      "from_name": "节点 110",
+      "to_name": "Visitor Center - North Entrance",
+      "weight": 140.29,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e142",
+      "name": "边 9",
+      "from": "n108",
+      "to": "n123",
+      "from_name": "节点 97",
+      "to_name": "节点 111",
+      "weight": 119.84,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e143",
+      "name": "边 93",
+      "from": "n123",
+      "to": "n109",
+      "from_name": "节点 111",
+      "to_name": "节点 98",
+      "weight": 308.67,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e144",
+      "name": "边 136",
+      "from": "n123",
+      "to": "n41",
+      "from_name": "节点 111",
+      "to_name": "Library - East Entrance",
+      "weight": 89.04,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e145",
+      "name": "边 137",
+      "from": "n10",
+      "to": "n9",
+      "from_name": "节点 10",
+      "to_name": "Residence Hall",
+      "weight": 296,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e146",
+      "name": "边 138",
+      "from": "n9",
+      "to": "n8",
+      "from_name": "Residence Hall",
+      "to_name": "节点 8",
+      "weight": 391.81,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e147",
+      "name": "边 139",
+      "from": "n104",
+      "to": "n101",
+      "from_name": "节点 93",
+      "to_name": "节点 90",
+      "weight": 656.75,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e149",
+      "name": "边 141",
+      "from": "n9",
+      "to": "n124",
+      "from_name": "Residence Hall",
+      "to_name": "节点 112",
+      "weight": 458.38,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e150",
+      "name": "边 142",
+      "from": "n76",
+      "to": "n37",
+      "from_name": "节点 66",
+      "to_name": "节点 32",
+      "weight": 379.4,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e151",
+      "name": "边 143",
+      "from": "n15",
+      "to": "n125",
+      "from_name": "节点 4",
+      "to_name": "Building F - South Entrance",
+      "weight": 66.19,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e152",
+      "name": "边 144",
+      "from": "n125",
+      "to": "n126",
+      "from_name": "Building F - South Entrance",
+      "to_name": "Building F - North Entrance",
+      "weight": 72.95,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e153",
+      "name": "边 145",
+      "from": "n127",
+      "to": "n38",
+      "from_name": "Red Cage",
+      "to_name": "节点 33",
+      "weight": 255.15,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e154",
+      "name": "边 146",
+      "from": "n127",
+      "to": "n78",
+      "from_name": "Red Cage",
+      "to_name": "Building G - South Entrance",
+      "weight": 51.65,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e155",
+      "name": "边 147",
+      "from": "n128",
+      "to": "n127",
+      "from_name": "节点 116",
+      "to_name": "Red Cage",
+      "weight": 112.35,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e156",
+      "name": "边 148",
+      "from": "n128",
+      "to": "n126",
+      "from_name": "节点 116",
+      "to_name": "Building F - North Entrance",
+      "weight": 30.52,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e157",
+      "name": "边 149",
+      "from": "n128",
+      "to": "n54",
+      "from_name": "节点 116",
+      "to_name": "节点 49",
+      "weight": 182.99,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e158",
+      "name": "边 128",
+      "from": "n129",
+      "to": "n130",
+      "from_name": "Administration Building - West Entrance",
+      "to_name": "节点 118",
+      "weight": 34.16,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e159",
+      "name": "边 135",
+      "from": "n109",
+      "to": "n130",
+      "from_name": "节点 98",
+      "to_name": "节点 118",
+      "weight": 119.9,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e160",
+      "name": "边 150",
+      "from": "n130",
+      "to": "n122",
+      "from_name": "节点 118",
+      "to_name": "节点 110",
+      "weight": 261.88,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e162",
+      "name": "边 152",
+      "from": "n104",
+      "to": "n135",
+      "from_name": "节点 93",
+      "to_name": "节点 123",
+      "weight": 371.51,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e163",
+      "name": "边 153",
+      "from": "n135",
+      "to": "n72",
+      "from_name": "节点 123",
+      "to_name": "Conference Center - West Entrance",
+      "weight": 522.53,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e164",
+      "name": "边 154",
+      "from": "n72",
+      "to": "n134",
+      "from_name": "Conference Center - West Entrance",
+      "to_name": "节点 122",
+      "weight": 293.38,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e165",
+      "name": "边 155",
+      "from": "n134",
+      "to": "n133",
+      "from_name": "节点 122",
+      "to_name": "节点 121",
+      "weight": 129.74,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e167",
+      "name": "边 157",
+      "from": "n132",
+      "to": "n8",
+      "from_name": "节点 120",
+      "to_name": "节点 8",
+      "weight": 199.59,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e168",
+      "name": "边 158",
+      "from": "n134",
+      "to": "n73",
+      "from_name": "节点 122",
+      "to_name": "West Gate",
+      "weight": 196.34,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e169",
+      "name": "边 140",
+      "from": "n103",
+      "to": "n136",
+      "from_name": "节点 92",
+      "to_name": "节点 124",
+      "weight": 340.79,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e170",
+      "name": "边 159",
+      "from": "n136",
+      "to": "n102",
+      "from_name": "节点 124",
+      "to_name": "节点 91",
+      "weight": 341.15,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e171",
+      "name": "边 160",
+      "from": "n138",
+      "to": "n139",
+      "from_name": "节点 126",
+      "to_name": "节点 127",
+      "weight": 462.07,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e172",
+      "name": "边 161",
+      "from": "n138",
+      "to": "n137",
+      "from_name": "节点 126",
+      "to_name": "节点 125",
+      "weight": 480.2,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e173",
+      "name": "边 162",
+      "from": "n70",
+      "to": "n138",
+      "from_name": "Academic Building - West Entrance",
+      "to_name": "节点 126",
+      "weight": 123.4,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e174",
+      "name": "边 163",
+      "from": "n138",
+      "to": "n112",
+      "from_name": "节点 126",
+      "to_name": "节点 101",
+      "weight": 114.52,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e175",
+      "name": "边 164",
+      "from": "n97",
+      "to": "n141",
+      "from_name": "Innovation Building - South Entrance",
+      "to_name": "节点 129",
+      "weight": 143.59,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e176",
+      "name": "边 165",
+      "from": "n141",
+      "to": "n140",
+      "from_name": "节点 129",
+      "to_name": "South East Gate",
+      "weight": 293.2,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e177",
+      "name": "边 166",
+      "from": "n141",
+      "to": "n142",
+      "from_name": "节点 129",
+      "to_name": "节点 130",
+      "weight": 696.46,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e178",
+      "name": "边 167",
+      "from": "n142",
+      "to": "n110",
+      "from_name": "节点 130",
+      "to_name": "节点 99",
+      "weight": 159.49,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e179",
+      "name": "边 168",
+      "from": "n142",
+      "to": "n100",
+      "from_name": "节点 130",
+      "to_name": "节点 89",
+      "weight": 246.97,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e180",
+      "name": "边 169",
+      "from": "n81",
+      "to": "n143",
+      "from_name": "节点 70",
+      "to_name": "节点 131",
+      "weight": 124.56,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e181",
+      "name": "边 170",
+      "from": "n143",
+      "to": "n90",
+      "from_name": "节点 131",
+      "to_name": "节点 79",
+      "weight": 213.78,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e182",
+      "name": "边 171",
+      "from": "n143",
+      "to": "n18",
+      "from_name": "节点 131",
+      "to_name": "节点 13",
+      "weight": 298.57,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e183",
+      "name": "边 172",
+      "from": "n18",
+      "to": "n52",
+      "from_name": "节点 13",
+      "to_name": "节点 47",
+      "weight": 366.9,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e184",
+      "name": "边 173",
+      "from": "n59",
+      "to": "n131",
+      "from_name": "节点 54",
+      "to_name": "节点 119",
+      "weight": 364.07,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e185",
+      "name": "边 174",
+      "from": "n131",
+      "to": "n124",
+      "from_name": "节点 119",
+      "to_name": "节点 112",
+      "weight": 324.99,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e186",
+      "name": "边 175",
+      "from": "n107",
+      "to": "n144",
+      "from_name": "节点 96",
+      "to_name": "节点 132",
+      "weight": 406.74,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e187",
+      "name": "边 156",
+      "from": "n132",
+      "to": "n144",
+      "from_name": "节点 120",
+      "to_name": "节点 132",
+      "weight": 147.54,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e188",
+      "name": "边 176",
+      "from": "n144",
+      "to": "n133",
+      "from_name": "节点 132",
+      "to_name": "节点 121",
+      "weight": 43.08,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e189",
+      "name": "边 177",
+      "from": "n28",
+      "to": "n147",
+      "from_name": "CCTW - South Entrance",
+      "to_name": "节点 134",
+      "weight": 93.54,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e190",
+      "name": "边 178",
+      "from": "n147",
+      "to": "n145",
+      "from_name": "节点 134",
+      "to_name": "CCTW - East Entrance",
+      "weight": 202.69,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e191",
+      "name": "边 179",
+      "from": "n145",
+      "to": "n146",
+      "from_name": "CCTW - East Entrance",
+      "to_name": "CCTE - West Entrance",
+      "weight": 60.87,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e192",
+      "name": "边 180",
+      "from": "n146",
+      "to": "n26",
+      "from_name": "CCTE - West Entrance",
+      "to_name": "CCTE South Entrance",
+      "weight": 154.86,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e193",
+      "name": "边 181",
+      "from": "n25",
+      "to": "n146",
+      "from_name": "CCTE North Entrance",
+      "to_name": "CCTE - West Entrance",
+      "weight": 186.46,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e194",
+      "name": "边 182",
+      "from": "n25",
+      "to": "n87",
+      "from_name": "CCTE North Entrance",
+      "to_name": "CCTE - East Entrance",
+      "weight": 168.44,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e195",
+      "name": "边 183",
+      "from": "n26",
+      "to": "n87",
+      "from_name": "CCTE South Entrance",
+      "to_name": "CCTE - East Entrance",
+      "weight": 157.42,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e196",
+      "name": "边 184",
+      "from": "n27",
+      "to": "n147",
+      "from_name": "CCTW - North Entrance",
+      "to_name": "节点 134",
+      "weight": 110.22,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e197",
+      "name": "边 185",
+      "from": "n84",
+      "to": "n85",
+      "from_name": "节点 73",
+      "to_name": "节点 74",
+      "weight": 291.91,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e198",
+      "name": "边 186",
+      "from": "n148",
+      "to": "n51",
+      "from_name": "South Gate 1",
+      "to_name": "节点 46",
+      "weight": 290.88,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e199",
+      "name": "边 187",
+      "from": "n149",
+      "to": "n66",
+      "from_name": "South Gate 2",
+      "to_name": "节点 61",
+      "weight": 279.7,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e200",
+      "name": "边 188",
+      "from": "n118",
+      "to": "n63",
+      "from_name": "节点 106",
+      "to_name": "节点 58",
+      "weight": 275.65,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e201",
+      "name": "边 189",
+      "from": "n63",
+      "to": "n150",
+      "from_name": "节点 58",
+      "to_name": "North Gate",
+      "weight": 447.07,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e203",
+      "name": "边 191",
+      "from": "n152",
+      "to": "n10",
+      "from_name": "Water Pavilion",
+      "to_name": "节点 10",
+      "weight": 65.05,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e204",
+      "name": "边 118",
+      "from": "n153",
+      "to": "n23",
+      "from_name": "Building B - North Entrance",
+      "to_name": "Building B - South Entrance",
+      "weight": 78.6,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e205",
+      "name": "边 192",
+      "from": "n153",
+      "to": "n76",
+      "from_name": "Building B - North Entrance",
+      "to_name": "节点 66",
+      "weight": 55.66,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e206",
+      "name": "边 193",
+      "from": "n78",
+      "to": "n128",
+      "from_name": "Building G - South Entrance",
+      "to_name": "节点 116",
+      "weight": 90.71,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e207",
+      "name": "边 7",
+      "from": "n13",
+      "to": "n154",
+      "from_name": "Building E - North Entrance",
+      "to_name": "Building E - South Entrance",
+      "weight": 88.38,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e208",
+      "name": "边 194",
+      "from": "n154",
+      "to": "n16",
+      "from_name": "Building E - South Entrance",
+      "to_name": "节点 5",
+      "weight": 35.82,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e209",
+      "name": "边 195",
+      "from": "n44",
+      "to": "n47",
+      "from_name": "WDR - North Entrance",
+      "to_name": "WDR - East Entrance",
+      "weight": 168.98,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e210",
+      "name": "边 196",
+      "from": "n47",
+      "to": "n46",
+      "from_name": "WDR - East Entrance",
+      "to_name": "WDR - South Entrance",
+      "weight": 287.91,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e211",
+      "name": "边 197",
+      "from": "n129",
+      "to": "n40",
+      "from_name": "Administration Building - West Entrance",
+      "to_name": "Administration Building - South Entrance",
+      "weight": 148.33,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e212",
+      "name": "边 198",
+      "from": "n19",
+      "to": "n155",
+      "from_name": "节点 14",
+      "to_name": "Graduate Students Center",
+      "weight": 109.85,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e213",
+      "name": "边 199",
+      "from": "n155",
+      "to": "n18",
+      "from_name": "Graduate Students Center",
+      "to_name": "节点 13",
+      "weight": 81.79,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e214",
+      "name": "边 200",
+      "from": "n58",
+      "to": "n156",
+      "from_name": "节点 53",
+      "to_name": "Service Building 2",
+      "weight": 81.32,
+      "unit": "px",
+      "enter_cost_to": 100,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e215",
+      "name": "边 201",
+      "from": "n156",
+      "to": "n79",
+      "from_name": "Service Building 2",
+      "to_name": "节点 68",
+      "weight": 114.06,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 100,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e216",
+      "name": "边 190",
+      "from": "n131",
+      "to": "n157",
+      "from_name": "节点 119",
+      "to_name": "Service Building 1",
+      "weight": 175.35,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e217",
+      "name": "边 202",
+      "from": "n157",
+      "to": "n59",
+      "from_name": "Service Building 1",
+      "to_name": "节点 54",
+      "weight": 242.5,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e218",
+      "name": "边 203",
+      "from": "n135",
+      "to": "n158",
+      "from_name": "节点 123",
+      "to_name": "节点 1",
+      "weight": 337.29,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e219",
+      "name": "边 204",
+      "from": "n160",
+      "to": "n53",
+      "from_name": "节点 7",
+      "to_name": "节点 48",
+      "weight": 116.85,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e220",
+      "name": "边 67",
+      "from": "n124",
+      "to": "n159",
+      "from_name": "节点 112",
+      "to_name": "节点 3",
+      "weight": 62.41,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e222",
+      "name": "边 206",
+      "from": "n160",
+      "to": "n52",
+      "from_name": "节点 7",
+      "to_name": "节点 47",
+      "weight": 72.37,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e223",
+      "name": "边 151",
+      "from": "n159",
+      "to": "n161",
+      "from_name": "节点 3",
+      "to_name": "节点 9",
+      "weight": 200.9,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e224",
+      "name": "边 205",
+      "from": "n161",
+      "to": "n160",
+      "from_name": "节点 9",
+      "to_name": "节点 7",
+      "weight": 161.92,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    },
+    {
+      "id": "e225",
+      "name": "边 207",
+      "from": "n161",
+      "to": "n95",
+      "from_name": "节点 9",
+      "to_name": "节点 84",
+      "weight": 63.49,
+      "unit": "px",
+      "enter_cost_to": 0,
+      "enter_cost_from": 0,
+      "waypoint_count": 0,
+      "note": ""
+    }
+  ],
+  "adjacency": {
+    "n8": [
+      {
+        "to": "n9",
+        "to_name": "Residence Hall",
+        "weight": 391.81,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 391.81,
+        "edge": "e146"
+      },
+      {
+        "to": "n132",
+        "to_name": "节点 120",
+        "weight": 199.59,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 199.59,
+        "edge": "e167"
+      }
+    ],
+    "n9": [
+      {
+        "to": "n10",
+        "to_name": "节点 10",
+        "weight": 296,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 296,
+        "edge": "e145"
+      },
+      {
+        "to": "n8",
+        "to_name": "节点 8",
+        "weight": 391.81,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 391.81,
+        "edge": "e146"
+      },
+      {
+        "to": "n124",
+        "to_name": "节点 112",
+        "weight": 458.38,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 458.38,
+        "edge": "e149"
+      }
+    ],
+    "n10": [
+      {
+        "to": "n71",
+        "to_name": "Conference Center - East Entrance",
+        "weight": 158.39,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 258.39,
+        "edge": "e86"
+      },
+      {
+        "to": "n112",
+        "to_name": "节点 101",
+        "weight": 217.99,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 217.99,
+        "edge": "e116"
+      },
+      {
+        "to": "n9",
+        "to_name": "Residence Hall",
+        "weight": 296,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 296,
+        "edge": "e145"
+      },
+      {
+        "to": "n152",
+        "to_name": "Water Pavilion",
+        "weight": 65.05,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 65.05,
+        "edge": "e203"
+      }
+    ],
+    "n13": [
+      {
+        "to": "n15",
+        "to_name": "节点 4",
+        "weight": 68.58,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 68.58,
+        "edge": "e6"
+      },
+      {
+        "to": "n154",
+        "to_name": "Building E - South Entrance",
+        "weight": 88.38,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 188.38,
+        "edge": "e207"
+      }
+    ],
+    "n14": [
+      {
+        "to": "n38",
+        "to_name": "节点 33",
+        "weight": 166.09,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 166.09,
+        "edge": "e4"
+      },
+      {
+        "to": "n15",
+        "to_name": "节点 4",
+        "weight": 346.64,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 346.64,
+        "edge": "e5"
+      },
+      {
+        "to": "n86",
+        "to_name": "节点 75",
+        "weight": 201.49,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 201.49,
+        "edge": "e52"
+      },
+      {
+        "to": "n113",
+        "to_name": "节点 21",
+        "weight": 306.18,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 306.18,
+        "edge": "e118"
+      }
+    ],
+    "n15": [
+      {
+        "to": "n14",
+        "to_name": "节点 2",
+        "weight": 346.64,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 346.64,
+        "edge": "e5"
+      },
+      {
+        "to": "n13",
+        "to_name": "Building E - North Entrance",
+        "weight": 68.58,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 168.58,
+        "edge": "e6"
+      },
+      {
+        "to": "n19",
+        "to_name": "节点 14",
+        "weight": 196.67,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 196.67,
+        "edge": "e33"
+      },
+      {
+        "to": "n125",
+        "to_name": "Building F - South Entrance",
+        "weight": 66.19,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 166.19,
+        "edge": "e151"
+      }
+    ],
+    "n16": [
+      {
+        "to": "n17",
+        "to_name": "节点 6",
+        "weight": 215.14,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 215.14,
+        "edge": "e8"
+      },
+      {
+        "to": "n80",
+        "to_name": "节点 69",
+        "weight": 96.64,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 96.64,
+        "edge": "e39"
+      },
+      {
+        "to": "n154",
+        "to_name": "Building E - South Entrance",
+        "weight": 35.82,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 135.82,
+        "edge": "e208"
+      }
+    ],
+    "n17": [
+      {
+        "to": "n16",
+        "to_name": "节点 5",
+        "weight": 215.14,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 215.14,
+        "edge": "e8"
+      },
+      {
+        "to": "n86",
+        "to_name": "节点 75",
+        "weight": 107.39,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 107.39,
+        "edge": "e53"
+      }
+    ],
+    "n18": [
+      {
+        "to": "n19",
+        "to_name": "节点 14",
+        "weight": 181.84,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 181.84,
+        "edge": "e34"
+      },
+      {
+        "to": "n80",
+        "to_name": "节点 69",
+        "weight": 123.28,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 123.28,
+        "edge": "e37"
+      },
+      {
+        "to": "n143",
+        "to_name": "节点 131",
+        "weight": 298.57,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 298.57,
+        "edge": "e182"
+      },
+      {
+        "to": "n52",
+        "to_name": "节点 47",
+        "weight": 366.9,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 366.9,
+        "edge": "e183"
+      },
+      {
+        "to": "n155",
+        "to_name": "Graduate Students Center",
+        "weight": 81.79,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 181.79,
+        "edge": "e213"
+      }
+    ],
+    "n19": [
+      {
+        "to": "n54",
+        "to_name": "节点 49",
+        "weight": 206.63,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 206.63,
+        "edge": "e32"
+      },
+      {
+        "to": "n15",
+        "to_name": "节点 4",
+        "weight": 196.67,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 196.67,
+        "edge": "e33"
+      },
+      {
+        "to": "n18",
+        "to_name": "节点 13",
+        "weight": 181.84,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 181.84,
+        "edge": "e34"
+      },
+      {
+        "to": "n53",
+        "to_name": "节点 48",
+        "weight": 363.26,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 363.26,
+        "edge": "e35"
+      },
+      {
+        "to": "n155",
+        "to_name": "Graduate Students Center",
+        "weight": 109.85,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 209.85,
+        "edge": "e212"
+      }
+    ],
+    "n20": [
+      {
+        "to": "n24",
+        "to_name": "节点 19",
+        "weight": 152.8,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 152.8,
+        "edge": "e45"
+      },
+      {
+        "to": "n22",
+        "to_name": "Building A - South Entrance",
+        "weight": 64.01,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 164.01,
+        "edge": "e46"
+      },
+      {
+        "to": "n39",
+        "to_name": "节点 34",
+        "weight": 222.19,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 222.19,
+        "edge": "e49"
+      },
+      {
+        "to": "n88",
+        "to_name": "节点 77",
+        "weight": 295.91,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 295.91,
+        "edge": "e65"
+      }
+    ],
+    "n21": [
+      {
+        "to": "n22",
+        "to_name": "Building A - South Entrance",
+        "weight": 80.21,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 180.21,
+        "edge": "e47"
+      },
+      {
+        "to": "n113",
+        "to_name": "节点 21",
+        "weight": 72.13,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 72.13,
+        "edge": "e120"
+      }
+    ],
+    "n22": [
+      {
+        "to": "n20",
+        "to_name": "节点 15",
+        "weight": 64.01,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 64.01,
+        "edge": "e46"
+      },
+      {
+        "to": "n21",
+        "to_name": "Building A - North Entrance",
+        "weight": 80.21,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 180.21,
+        "edge": "e47"
+      }
+    ],
+    "n23": [
+      {
+        "to": "n114",
+        "to_name": "节点 102",
+        "weight": 65.14,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 65.14,
+        "edge": "e122"
+      },
+      {
+        "to": "n153",
+        "to_name": "Building B - North Entrance",
+        "weight": 78.6,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 178.6,
+        "edge": "e204"
+      }
+    ],
+    "n24": [
+      {
+        "to": "n83",
+        "to_name": "节点 72",
+        "weight": 148.09,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 148.09,
+        "edge": "e44"
+      },
+      {
+        "to": "n20",
+        "to_name": "节点 15",
+        "weight": 152.8,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 152.8,
+        "edge": "e45"
+      },
+      {
+        "to": "n87",
+        "to_name": "CCTE - East Entrance",
+        "weight": 62.53,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 162.53,
+        "edge": "e54"
+      }
+    ],
+    "n25": [
+      {
+        "to": "n26",
+        "to_name": "CCTE South Entrance",
+        "weight": 152.03,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 252.03,
+        "edge": "e10"
+      },
+      {
+        "to": "n39",
+        "to_name": "节点 34",
+        "weight": 65.05,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 65.05,
+        "edge": "e50"
+      },
+      {
+        "to": "n146",
+        "to_name": "CCTE - West Entrance",
+        "weight": 186.46,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 286.46,
+        "edge": "e193"
+      },
+      {
+        "to": "n87",
+        "to_name": "CCTE - East Entrance",
+        "weight": 168.44,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 268.44,
+        "edge": "e194"
+      }
+    ],
+    "n26": [
+      {
+        "to": "n25",
+        "to_name": "CCTE North Entrance",
+        "weight": 152.03,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 252.03,
+        "edge": "e10"
+      },
+      {
+        "to": "n82",
+        "to_name": "节点 71",
+        "weight": 85.31,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 85.31,
+        "edge": "e66"
+      },
+      {
+        "to": "n146",
+        "to_name": "CCTE - West Entrance",
+        "weight": 154.86,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 254.86,
+        "edge": "e192"
+      },
+      {
+        "to": "n87",
+        "to_name": "CCTE - East Entrance",
+        "weight": 157.42,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 257.42,
+        "edge": "e195"
+      }
+    ],
+    "n27": [
+      {
+        "to": "n80",
+        "to_name": "节点 69",
+        "weight": 89.48,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 89.48,
+        "edge": "e38"
+      },
+      {
+        "to": "n28",
+        "to_name": "CCTW - South Entrance",
+        "weight": 114.14,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 214.14,
+        "edge": "e40"
+      },
+      {
+        "to": "n147",
+        "to_name": "节点 134",
+        "weight": 110.22,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 110.22,
+        "edge": "e196"
+      }
+    ],
+    "n28": [
+      {
+        "to": "n27",
+        "to_name": "CCTW - North Entrance",
+        "weight": 114.14,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 214.14,
+        "edge": "e40"
+      },
+      {
+        "to": "n81",
+        "to_name": "节点 70",
+        "weight": 78.67,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 78.67,
+        "edge": "e41"
+      },
+      {
+        "to": "n147",
+        "to_name": "节点 134",
+        "weight": 93.54,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 93.54,
+        "edge": "e189"
+      }
+    ],
+    "n29": [
+      {
+        "to": "n30",
+        "to_name": "节点 25",
+        "weight": 194.22,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 194.22,
+        "edge": "e13"
+      },
+      {
+        "to": "n63",
+        "to_name": "节点 58",
+        "weight": 405.81,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 405.81,
+        "edge": "e14"
+      },
+      {
+        "to": "n76",
+        "to_name": "节点 66",
+        "weight": 176.94,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 176.94,
+        "edge": "e61"
+      },
+      {
+        "to": "n89",
+        "to_name": "节点 78",
+        "weight": 219.75,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 219.75,
+        "edge": "e62"
+      }
+    ],
+    "n30": [
+      {
+        "to": "n32",
+        "to_name": "节点 27",
+        "weight": 184.16,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 184.16,
+        "edge": "e12"
+      },
+      {
+        "to": "n29",
+        "to_name": "节点 24",
+        "weight": 194.22,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 194.22,
+        "edge": "e13"
+      }
+    ],
+    "n31": [
+      {
+        "to": "n32",
+        "to_name": "节点 27",
+        "weight": 80.1,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 80.1,
+        "edge": "e58"
+      },
+      {
+        "to": "n75",
+        "to_name": "Building C - South Entrance",
+        "weight": 79.04,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 179.04,
+        "edge": "e59"
+      }
+    ],
+    "n32": [
+      {
+        "to": "n33",
+        "to_name": "节点 28",
+        "weight": 87.45,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 87.45,
+        "edge": "e11"
+      },
+      {
+        "to": "n30",
+        "to_name": "节点 25",
+        "weight": 184.16,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 184.16,
+        "edge": "e12"
+      },
+      {
+        "to": "n31",
+        "to_name": "Building C - North Entrance",
+        "weight": 80.1,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 180.1,
+        "edge": "e58"
+      }
+    ],
+    "n33": [
+      {
+        "to": "n32",
+        "to_name": "节点 27",
+        "weight": 87.45,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 87.45,
+        "edge": "e11"
+      },
+      {
+        "to": "n34",
+        "to_name": "Building D - South Entrance",
+        "weight": 67.93,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 167.93,
+        "edge": "e16"
+      },
+      {
+        "to": "n35",
+        "to_name": "节点 30",
+        "weight": 285.52,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 285.52,
+        "edge": "e17"
+      }
+    ],
+    "n34": [
+      {
+        "to": "n74",
+        "to_name": "Building D - North Entrance",
+        "weight": 65.28,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 165.28,
+        "edge": "e15"
+      },
+      {
+        "to": "n33",
+        "to_name": "节点 28",
+        "weight": 67.93,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 67.93,
+        "edge": "e16"
+      }
+    ],
+    "n35": [
+      {
+        "to": "n36",
+        "to_name": "节点 31",
+        "weight": 51.47,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 51.47,
+        "edge": "e1"
+      },
+      {
+        "to": "n33",
+        "to_name": "节点 28",
+        "weight": 285.52,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 285.52,
+        "edge": "e17"
+      },
+      {
+        "to": "n62",
+        "to_name": "节点 57",
+        "weight": 187.22,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 187.22,
+        "edge": "e132"
+      }
+    ],
+    "n36": [
+      {
+        "to": "n35",
+        "to_name": "节点 30",
+        "weight": 51.47,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 51.47,
+        "edge": "e1"
+      },
+      {
+        "to": "n37",
+        "to_name": "节点 32",
+        "weight": 147.4,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 147.4,
+        "edge": "e2"
+      },
+      {
+        "to": "n56",
+        "to_name": "节点 51",
+        "weight": 302.64,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 302.64,
+        "edge": "e20"
+      }
+    ],
+    "n37": [
+      {
+        "to": "n36",
+        "to_name": "节点 31",
+        "weight": 147.4,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 147.4,
+        "edge": "e2"
+      },
+      {
+        "to": "n38",
+        "to_name": "节点 33",
+        "weight": 39.43,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 39.43,
+        "edge": "e3"
+      },
+      {
+        "to": "n76",
+        "to_name": "节点 66",
+        "weight": 379.4,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 379.4,
+        "edge": "e150"
+      }
+    ],
+    "n38": [
+      {
+        "to": "n37",
+        "to_name": "节点 32",
+        "weight": 39.43,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 39.43,
+        "edge": "e3"
+      },
+      {
+        "to": "n14",
+        "to_name": "节点 2",
+        "weight": 166.09,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 166.09,
+        "edge": "e4"
+      },
+      {
+        "to": "n78",
+        "to_name": "Building G - South Entrance",
+        "weight": 291.6,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 391.6,
+        "edge": "e24"
+      },
+      {
+        "to": "n127",
+        "to_name": "Red Cage",
+        "weight": 255.15,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 255.15,
+        "edge": "e153"
+      }
+    ],
+    "n39": [
+      {
+        "to": "n20",
+        "to_name": "节点 15",
+        "weight": 222.19,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 222.19,
+        "edge": "e49"
+      },
+      {
+        "to": "n25",
+        "to_name": "CCTE North Entrance",
+        "weight": 65.05,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 165.05,
+        "edge": "e50"
+      },
+      {
+        "to": "n86",
+        "to_name": "节点 75",
+        "weight": 74.72,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 74.72,
+        "edge": "e51"
+      }
+    ],
+    "n40": [
+      {
+        "to": "n120",
+        "to_name": "Visitor Center - North Entrance",
+        "weight": 177.45,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 277.45,
+        "edge": "e138"
+      },
+      {
+        "to": "n129",
+        "to_name": "Administration Building - West Entrance",
+        "weight": 148.33,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 248.33,
+        "edge": "e211"
+      }
+    ],
+    "n41": [
+      {
+        "to": "n42",
+        "to_name": "Library - West Entrance",
+        "weight": 394.06,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 494.06,
+        "edge": "e68"
+      },
+      {
+        "to": "n43",
+        "to_name": "节点 38",
+        "weight": 189.64,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 189.64,
+        "edge": "e97"
+      },
+      {
+        "to": "n123",
+        "to_name": "节点 111",
+        "weight": 89.04,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 89.04,
+        "edge": "e144"
+      }
+    ],
+    "n42": [
+      {
+        "to": "n41",
+        "to_name": "Library - East Entrance",
+        "weight": 394.06,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 494.06,
+        "edge": "e68"
+      },
+      {
+        "to": "n90",
+        "to_name": "节点 79",
+        "weight": 42.84,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 42.84,
+        "edge": "e76"
+      }
+    ],
+    "n43": [
+      {
+        "to": "n41",
+        "to_name": "Library - East Entrance",
+        "weight": 189.64,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 289.64,
+        "edge": "e97"
+      },
+      {
+        "to": "n49",
+        "to_name": "节点 44",
+        "weight": 337.11,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 337.11,
+        "edge": "e98"
+      },
+      {
+        "to": "n50",
+        "to_name": "节点 45",
+        "weight": 271.61,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 271.61,
+        "edge": "e100"
+      }
+    ],
+    "n44": [
+      {
+        "to": "n45",
+        "to_name": "WDR - West Entrance",
+        "weight": 199.02,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 299.02,
+        "edge": "e109"
+      },
+      {
+        "to": "n91",
+        "to_name": "节点 80",
+        "weight": 71.16,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 71.16,
+        "edge": "e110"
+      },
+      {
+        "to": "n47",
+        "to_name": "WDR - East Entrance",
+        "weight": 168.98,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 268.98,
+        "edge": "e209"
+      }
+    ],
+    "n45": [
+      {
+        "to": "n100",
+        "to_name": "节点 89",
+        "weight": 85.36,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 85.36,
+        "edge": "e108"
+      },
+      {
+        "to": "n44",
+        "to_name": "WDR - North Entrance",
+        "weight": 199.02,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 299.02,
+        "edge": "e109"
+      },
+      {
+        "to": "n46",
+        "to_name": "WDR - South Entrance",
+        "weight": 140.05,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 240.05,
+        "edge": "e111"
+      }
+    ],
+    "n46": [
+      {
+        "to": "n45",
+        "to_name": "WDR - West Entrance",
+        "weight": 140.05,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 240.05,
+        "edge": "e111"
+      },
+      {
+        "to": "n110",
+        "to_name": "节点 99",
+        "weight": 134.13,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 134.13,
+        "edge": "e112"
+      },
+      {
+        "to": "n47",
+        "to_name": "WDR - East Entrance",
+        "weight": 287.91,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 387.91,
+        "edge": "e210"
+      }
+    ],
+    "n47": [
+      {
+        "to": "n48",
+        "to_name": "节点 43",
+        "weight": 51.56,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 51.56,
+        "edge": "e79"
+      },
+      {
+        "to": "n44",
+        "to_name": "WDR - North Entrance",
+        "weight": 168.98,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 268.98,
+        "edge": "e209"
+      },
+      {
+        "to": "n46",
+        "to_name": "WDR - South Entrance",
+        "weight": 287.91,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 387.91,
+        "edge": "e210"
+      }
+    ],
+    "n48": [
+      {
+        "to": "n92",
+        "to_name": "节点 81",
+        "weight": 110.51,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 110.51,
+        "edge": "e77"
+      },
+      {
+        "to": "n49",
+        "to_name": "节点 44",
+        "weight": 120.82,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 120.82,
+        "edge": "e78"
+      },
+      {
+        "to": "n47",
+        "to_name": "WDR - East Entrance",
+        "weight": 51.56,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 151.56,
+        "edge": "e79"
+      },
+      {
+        "to": "n111",
+        "to_name": "节点 100",
+        "weight": 395.06,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 395.06,
+        "edge": "e114"
+      }
+    ],
+    "n49": [
+      {
+        "to": "n48",
+        "to_name": "节点 43",
+        "weight": 120.82,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 120.82,
+        "edge": "e78"
+      },
+      {
+        "to": "n43",
+        "to_name": "节点 38",
+        "weight": 337.11,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 337.11,
+        "edge": "e98"
+      },
+      {
+        "to": "n50",
+        "to_name": "节点 45",
+        "weight": 422.08,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 422.08,
+        "edge": "e99"
+      }
+    ],
+    "n50": [
+      {
+        "to": "n49",
+        "to_name": "节点 44",
+        "weight": 422.08,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 422.08,
+        "edge": "e99"
+      },
+      {
+        "to": "n43",
+        "to_name": "节点 38",
+        "weight": 271.61,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 271.61,
+        "edge": "e100"
+      },
+      {
+        "to": "n51",
+        "to_name": "节点 46",
+        "weight": 48.47,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 48.47,
+        "edge": "e101"
+      }
+    ],
+    "n51": [
+      {
+        "to": "n50",
+        "to_name": "节点 45",
+        "weight": 48.47,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 48.47,
+        "edge": "e101"
+      },
+      {
+        "to": "n66",
+        "to_name": "节点 61",
+        "weight": 311.16,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 311.16,
+        "edge": "e102"
+      },
+      {
+        "to": "n111",
+        "to_name": "节点 100",
+        "weight": 473.96,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 473.96,
+        "edge": "e115"
+      },
+      {
+        "to": "n148",
+        "to_name": "South Gate 1",
+        "weight": 290.88,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 290.88,
+        "edge": "e198"
+      }
+    ],
+    "n52": [
+      {
+        "to": "n99",
+        "to_name": "节点 88",
+        "weight": 193.03,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 193.03,
+        "edge": "e70"
+      },
+      {
+        "to": "n95",
+        "to_name": "节点 84",
+        "weight": 160.76,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 160.76,
+        "edge": "e134"
+      },
+      {
+        "to": "n18",
+        "to_name": "节点 13",
+        "weight": 366.9,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 366.9,
+        "edge": "e183"
+      },
+      {
+        "to": "n160",
+        "to_name": "节点 7",
+        "weight": 72.37,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 72.37,
+        "edge": "e222"
+      }
+    ],
+    "n53": [
+      {
+        "to": "n19",
+        "to_name": "节点 14",
+        "weight": 363.26,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 363.26,
+        "edge": "e35"
+      },
+      {
+        "to": "n59",
+        "to_name": "节点 54",
+        "weight": 282.87,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 282.87,
+        "edge": "e36"
+      },
+      {
+        "to": "n160",
+        "to_name": "节点 7",
+        "weight": 116.85,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 116.85,
+        "edge": "e219"
+      }
+    ],
+    "n54": [
+      {
+        "to": "n79",
+        "to_name": "节点 68",
+        "weight": 75.6,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 75.6,
+        "edge": "e30"
+      },
+      {
+        "to": "n19",
+        "to_name": "节点 14",
+        "weight": 206.63,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 206.63,
+        "edge": "e32"
+      },
+      {
+        "to": "n128",
+        "to_name": "节点 116",
+        "weight": 182.99,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 182.99,
+        "edge": "e157"
+      }
+    ],
+    "n55": [
+      {
+        "to": "n58",
+        "to_name": "节点 53",
+        "weight": 217.45,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 217.45,
+        "edge": "e18"
+      },
+      {
+        "to": "n56",
+        "to_name": "节点 51",
+        "weight": 31.78,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 31.78,
+        "edge": "e19"
+      },
+      {
+        "to": "n77",
+        "to_name": "Building G - North Entrance",
+        "weight": 90.56,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 190.56,
+        "edge": "e22"
+      }
+    ],
+    "n56": [
+      {
+        "to": "n55",
+        "to_name": "节点 50",
+        "weight": 31.78,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 31.78,
+        "edge": "e19"
+      },
+      {
+        "to": "n36",
+        "to_name": "节点 31",
+        "weight": 302.64,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 302.64,
+        "edge": "e20"
+      },
+      {
+        "to": "n57",
+        "to_name": "Building H - South Entrance",
+        "weight": 73.6,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 173.6,
+        "edge": "e21"
+      }
+    ],
+    "n57": [
+      {
+        "to": "n56",
+        "to_name": "节点 51",
+        "weight": 73.6,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 73.6,
+        "edge": "e21"
+      },
+      {
+        "to": "n115",
+        "to_name": "Building H - North Entrance",
+        "weight": 62,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 162,
+        "edge": "e127"
+      }
+    ],
+    "n58": [
+      {
+        "to": "n55",
+        "to_name": "节点 50",
+        "weight": 217.45,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 217.45,
+        "edge": "e18"
+      },
+      {
+        "to": "n61",
+        "to_name": "节点 56",
+        "weight": 183.53,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 183.53,
+        "edge": "e26"
+      },
+      {
+        "to": "n79",
+        "to_name": "节点 68",
+        "weight": 107.43,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 107.43,
+        "edge": "e29"
+      },
+      {
+        "to": "n156",
+        "to_name": "Service Building 2",
+        "weight": 81.32,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 181.32,
+        "edge": "e214"
+      }
+    ],
+    "n59": [
+      {
+        "to": "n60",
+        "to_name": "节点 55",
+        "weight": 240.61,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 240.61,
+        "edge": "e28"
+      },
+      {
+        "to": "n79",
+        "to_name": "节点 68",
+        "weight": 365,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 365,
+        "edge": "e31"
+      },
+      {
+        "to": "n53",
+        "to_name": "节点 48",
+        "weight": 282.87,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 282.87,
+        "edge": "e36"
+      },
+      {
+        "to": "n131",
+        "to_name": "节点 119",
+        "weight": 364.07,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 364.07,
+        "edge": "e184"
+      },
+      {
+        "to": "n157",
+        "to_name": "Service Building 1",
+        "weight": 242.5,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 242.5,
+        "edge": "e217"
+      }
+    ],
+    "n60": [
+      {
+        "to": "n61",
+        "to_name": "节点 56",
+        "weight": 358.42,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 358.42,
+        "edge": "e27"
+      },
+      {
+        "to": "n59",
+        "to_name": "节点 54",
+        "weight": 240.61,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 240.61,
+        "edge": "e28"
+      }
+    ],
+    "n61": [
+      {
+        "to": "n58",
+        "to_name": "节点 53",
+        "weight": 183.53,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 183.53,
+        "edge": "e26"
+      },
+      {
+        "to": "n60",
+        "to_name": "节点 55",
+        "weight": 358.42,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 358.42,
+        "edge": "e27"
+      },
+      {
+        "to": "n116",
+        "to_name": "节点 104",
+        "weight": 251.03,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 251.03,
+        "edge": "e124"
+      }
+    ],
+    "n62": [
+      {
+        "to": "n116",
+        "to_name": "节点 104",
+        "weight": 292.85,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 292.85,
+        "edge": "e125"
+      },
+      {
+        "to": "n117",
+        "to_name": "节点 105",
+        "weight": 82.15,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 82.15,
+        "edge": "e128"
+      },
+      {
+        "to": "n35",
+        "to_name": "节点 30",
+        "weight": 187.22,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 187.22,
+        "edge": "e132"
+      }
+    ],
+    "n63": [
+      {
+        "to": "n29",
+        "to_name": "节点 24",
+        "weight": 405.81,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 405.81,
+        "edge": "e14"
+      },
+      {
+        "to": "n118",
+        "to_name": "节点 106",
+        "weight": 275.65,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 275.65,
+        "edge": "e200"
+      },
+      {
+        "to": "n150",
+        "to_name": "North Gate",
+        "weight": 447.07,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 547.07,
+        "edge": "e201"
+      }
+    ],
+    "n64": [
+      {
+        "to": "n117",
+        "to_name": "节点 105",
+        "weight": 58.22,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 58.22,
+        "edge": "e131"
+      }
+    ],
+    "n66": [
+      {
+        "to": "n51",
+        "to_name": "节点 46",
+        "weight": 311.16,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 311.16,
+        "edge": "e102"
+      },
+      {
+        "to": "n121",
+        "to_name": "节点 109",
+        "weight": 142.84,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 142.84,
+        "edge": "e135"
+      },
+      {
+        "to": "n122",
+        "to_name": "节点 110",
+        "weight": 202.45,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 202.45,
+        "edge": "e139"
+      },
+      {
+        "to": "n149",
+        "to_name": "South Gate 2",
+        "weight": 279.7,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 279.7,
+        "edge": "e199"
+      }
+    ],
+    "n67": [
+      {
+        "to": "n68",
+        "to_name": "Sports Complex - South Entrance",
+        "weight": 182.8,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 282.8,
+        "edge": "e57"
+      },
+      {
+        "to": "n88",
+        "to_name": "节点 77",
+        "weight": 229.7,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 229.7,
+        "edge": "e64"
+      }
+    ],
+    "n68": [
+      {
+        "to": "n85",
+        "to_name": "节点 74",
+        "weight": 73.4,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 73.4,
+        "edge": "e56"
+      },
+      {
+        "to": "n67",
+        "to_name": "Sports Complex - North Entrance",
+        "weight": 182.8,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 282.8,
+        "edge": "e57"
+      }
+    ],
+    "n69": [
+      {
+        "to": "n99",
+        "to_name": "节点 88",
+        "weight": 150.56,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 150.56,
+        "edge": "e71"
+      },
+      {
+        "to": "n70",
+        "to_name": "Academic Building - West Entrance",
+        "weight": 233.63,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 333.63,
+        "edge": "e89"
+      },
+      {
+        "to": "n93",
+        "to_name": "节点 82",
+        "weight": 160.76,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 160.76,
+        "edge": "e90"
+      },
+      {
+        "to": "n94",
+        "to_name": "节点 83",
+        "weight": 378.34,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 378.34,
+        "edge": "e93"
+      }
+    ],
+    "n70": [
+      {
+        "to": "n69",
+        "to_name": "Academic Building - East Entrance",
+        "weight": 233.63,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 333.63,
+        "edge": "e89"
+      },
+      {
+        "to": "n112",
+        "to_name": "节点 101",
+        "weight": 214.26,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 214.26,
+        "edge": "e117"
+      },
+      {
+        "to": "n138",
+        "to_name": "节点 126",
+        "weight": 123.4,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 123.4,
+        "edge": "e173"
+      }
+    ],
+    "n71": [
+      {
+        "to": "n106",
+        "to_name": "节点 95",
+        "weight": 347.64,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 347.64,
+        "edge": "e85"
+      },
+      {
+        "to": "n10",
+        "to_name": "节点 10",
+        "weight": 158.39,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 158.39,
+        "edge": "e86"
+      },
+      {
+        "to": "n107",
+        "to_name": "节点 96",
+        "weight": 168.63,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 168.63,
+        "edge": "e87"
+      },
+      {
+        "to": "n72",
+        "to_name": "Conference Center - West Entrance",
+        "weight": 153.75,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 253.75,
+        "edge": "e88"
+      }
+    ],
+    "n72": [
+      {
+        "to": "n71",
+        "to_name": "Conference Center - East Entrance",
+        "weight": 153.75,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 253.75,
+        "edge": "e88"
+      },
+      {
+        "to": "n135",
+        "to_name": "节点 123",
+        "weight": 522.53,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 522.53,
+        "edge": "e163"
+      },
+      {
+        "to": "n134",
+        "to_name": "节点 122",
+        "weight": 293.38,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 293.38,
+        "edge": "e164"
+      }
+    ],
+    "n73": [
+      {
+        "to": "n134",
+        "to_name": "节点 122",
+        "weight": 196.34,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 196.34,
+        "edge": "e168"
+      }
+    ],
+    "n74": [
+      {
+        "to": "n34",
+        "to_name": "Building D - South Entrance",
+        "weight": 65.28,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 165.28,
+        "edge": "e15"
+      },
+      {
+        "to": "n118",
+        "to_name": "节点 106",
+        "weight": 68.83,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 68.83,
+        "edge": "e130"
+      }
+    ],
+    "n75": [
+      {
+        "to": "n31",
+        "to_name": "Building C - North Entrance",
+        "weight": 79.04,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 179.04,
+        "edge": "e59"
+      },
+      {
+        "to": "n76",
+        "to_name": "节点 66",
+        "weight": 35.6,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 35.6,
+        "edge": "e60"
+      }
+    ],
+    "n76": [
+      {
+        "to": "n75",
+        "to_name": "Building C - South Entrance",
+        "weight": 35.6,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 135.6,
+        "edge": "e60"
+      },
+      {
+        "to": "n29",
+        "to_name": "节点 24",
+        "weight": 176.94,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 176.94,
+        "edge": "e61"
+      },
+      {
+        "to": "n37",
+        "to_name": "节点 32",
+        "weight": 379.4,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 379.4,
+        "edge": "e150"
+      },
+      {
+        "to": "n153",
+        "to_name": "Building B - North Entrance",
+        "weight": 55.66,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 155.66,
+        "edge": "e205"
+      }
+    ],
+    "n77": [
+      {
+        "to": "n55",
+        "to_name": "节点 50",
+        "weight": 90.56,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 90.56,
+        "edge": "e22"
+      },
+      {
+        "to": "n78",
+        "to_name": "Building G - South Entrance",
+        "weight": 79.92,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 179.92,
+        "edge": "e23"
+      }
+    ],
+    "n78": [
+      {
+        "to": "n77",
+        "to_name": "Building G - North Entrance",
+        "weight": 79.92,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 179.92,
+        "edge": "e23"
+      },
+      {
+        "to": "n38",
+        "to_name": "节点 33",
+        "weight": 291.6,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 291.6,
+        "edge": "e24"
+      },
+      {
+        "to": "n127",
+        "to_name": "Red Cage",
+        "weight": 51.65,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 51.65,
+        "edge": "e154"
+      },
+      {
+        "to": "n128",
+        "to_name": "节点 116",
+        "weight": 90.71,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 90.71,
+        "edge": "e206"
+      }
+    ],
+    "n79": [
+      {
+        "to": "n58",
+        "to_name": "节点 53",
+        "weight": 107.43,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 107.43,
+        "edge": "e29"
+      },
+      {
+        "to": "n54",
+        "to_name": "节点 49",
+        "weight": 75.6,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 75.6,
+        "edge": "e30"
+      },
+      {
+        "to": "n59",
+        "to_name": "节点 54",
+        "weight": 365,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 365,
+        "edge": "e31"
+      },
+      {
+        "to": "n156",
+        "to_name": "Service Building 2",
+        "weight": 114.06,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 214.06,
+        "edge": "e215"
+      }
+    ],
+    "n80": [
+      {
+        "to": "n18",
+        "to_name": "节点 13",
+        "weight": 123.28,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 123.28,
+        "edge": "e37"
+      },
+      {
+        "to": "n27",
+        "to_name": "CCTW - North Entrance",
+        "weight": 89.48,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 189.48,
+        "edge": "e38"
+      },
+      {
+        "to": "n16",
+        "to_name": "节点 5",
+        "weight": 96.64,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 96.64,
+        "edge": "e39"
+      }
+    ],
+    "n81": [
+      {
+        "to": "n28",
+        "to_name": "CCTW - South Entrance",
+        "weight": 78.67,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 178.67,
+        "edge": "e41"
+      },
+      {
+        "to": "n108",
+        "to_name": "节点 97",
+        "weight": 348.62,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 348.62,
+        "edge": "e94"
+      },
+      {
+        "to": "n143",
+        "to_name": "节点 131",
+        "weight": 124.56,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 124.56,
+        "edge": "e180"
+      }
+    ],
+    "n82": [
+      {
+        "to": "n83",
+        "to_name": "节点 72",
+        "weight": 199.59,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 199.59,
+        "edge": "e43"
+      },
+      {
+        "to": "n26",
+        "to_name": "CCTE South Entrance",
+        "weight": 85.31,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 185.31,
+        "edge": "e66"
+      },
+      {
+        "to": "n108",
+        "to_name": "节点 97",
+        "weight": 150.15,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 150.15,
+        "edge": "e95"
+      }
+    ],
+    "n83": [
+      {
+        "to": "n82",
+        "to_name": "节点 71",
+        "weight": 199.59,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 199.59,
+        "edge": "e43"
+      },
+      {
+        "to": "n24",
+        "to_name": "节点 19",
+        "weight": 148.09,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 148.09,
+        "edge": "e44"
+      },
+      {
+        "to": "n85",
+        "to_name": "节点 74",
+        "weight": 533.17,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 533.17,
+        "edge": "e55"
+      },
+      {
+        "to": "n109",
+        "to_name": "节点 98",
+        "weight": 134.8,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 134.8,
+        "edge": "e104"
+      }
+    ],
+    "n84": [
+      {
+        "to": "n85",
+        "to_name": "节点 74",
+        "weight": 291.91,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 291.91,
+        "edge": "e197"
+      }
+    ],
+    "n85": [
+      {
+        "to": "n83",
+        "to_name": "节点 72",
+        "weight": 533.17,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 533.17,
+        "edge": "e55"
+      },
+      {
+        "to": "n68",
+        "to_name": "Sports Complex - South Entrance",
+        "weight": 73.4,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 173.4,
+        "edge": "e56"
+      },
+      {
+        "to": "n84",
+        "to_name": "节点 73",
+        "weight": 291.91,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 291.91,
+        "edge": "e197"
+      }
+    ],
+    "n86": [
+      {
+        "to": "n39",
+        "to_name": "节点 34",
+        "weight": 74.72,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 74.72,
+        "edge": "e51"
+      },
+      {
+        "to": "n14",
+        "to_name": "节点 2",
+        "weight": 201.49,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 201.49,
+        "edge": "e52"
+      },
+      {
+        "to": "n17",
+        "to_name": "节点 6",
+        "weight": 107.39,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 107.39,
+        "edge": "e53"
+      }
+    ],
+    "n87": [
+      {
+        "to": "n24",
+        "to_name": "节点 19",
+        "weight": 62.53,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 62.53,
+        "edge": "e54"
+      },
+      {
+        "to": "n25",
+        "to_name": "CCTE North Entrance",
+        "weight": 168.44,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 268.44,
+        "edge": "e194"
+      },
+      {
+        "to": "n26",
+        "to_name": "CCTE South Entrance",
+        "weight": 157.42,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 257.42,
+        "edge": "e195"
+      }
+    ],
+    "n88": [
+      {
+        "to": "n89",
+        "to_name": "节点 78",
+        "weight": 180.83,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 180.83,
+        "edge": "e63"
+      },
+      {
+        "to": "n67",
+        "to_name": "Sports Complex - North Entrance",
+        "weight": 229.7,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 329.7,
+        "edge": "e64"
+      },
+      {
+        "to": "n20",
+        "to_name": "节点 15",
+        "weight": 295.91,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 295.91,
+        "edge": "e65"
+      }
+    ],
+    "n89": [
+      {
+        "to": "n29",
+        "to_name": "节点 24",
+        "weight": 219.75,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 219.75,
+        "edge": "e62"
+      },
+      {
+        "to": "n88",
+        "to_name": "节点 77",
+        "weight": 180.83,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 180.83,
+        "edge": "e63"
+      }
+    ],
+    "n90": [
+      {
+        "to": "n92",
+        "to_name": "节点 81",
+        "weight": 74.97,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 74.97,
+        "edge": "e75"
+      },
+      {
+        "to": "n42",
+        "to_name": "Library - West Entrance",
+        "weight": 42.84,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 142.84,
+        "edge": "e76"
+      },
+      {
+        "to": "n143",
+        "to_name": "节点 131",
+        "weight": 213.78,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 213.78,
+        "edge": "e181"
+      }
+    ],
+    "n91": [
+      {
+        "to": "n98",
+        "to_name": "节点 87",
+        "weight": 173.75,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 173.75,
+        "edge": "e73"
+      },
+      {
+        "to": "n92",
+        "to_name": "节点 81",
+        "weight": 191,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 191,
+        "edge": "e74"
+      },
+      {
+        "to": "n44",
+        "to_name": "WDR - North Entrance",
+        "weight": 71.16,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 171.16,
+        "edge": "e110"
+      }
+    ],
+    "n92": [
+      {
+        "to": "n91",
+        "to_name": "节点 80",
+        "weight": 191,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 191,
+        "edge": "e74"
+      },
+      {
+        "to": "n90",
+        "to_name": "节点 79",
+        "weight": 74.97,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 74.97,
+        "edge": "e75"
+      },
+      {
+        "to": "n48",
+        "to_name": "节点 43",
+        "weight": 110.51,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 110.51,
+        "edge": "e77"
+      }
+    ],
+    "n93": [
+      {
+        "to": "n69",
+        "to_name": "Academic Building - East Entrance",
+        "weight": 160.76,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 260.76,
+        "edge": "e90"
+      },
+      {
+        "to": "n95",
+        "to_name": "节点 84",
+        "weight": 41.46,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 41.46,
+        "edge": "e91"
+      }
+    ],
+    "n94": [
+      {
+        "to": "n98",
+        "to_name": "节点 87",
+        "weight": 156.42,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 156.42,
+        "edge": "e92"
+      },
+      {
+        "to": "n69",
+        "to_name": "Academic Building - East Entrance",
+        "weight": 378.34,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 478.34,
+        "edge": "e93"
+      }
+    ],
+    "n95": [
+      {
+        "to": "n93",
+        "to_name": "节点 82",
+        "weight": 41.46,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 41.46,
+        "edge": "e91"
+      },
+      {
+        "to": "n52",
+        "to_name": "节点 47",
+        "weight": 160.76,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 160.76,
+        "edge": "e134"
+      },
+      {
+        "to": "n161",
+        "to_name": "节点 9",
+        "weight": 63.49,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 63.49,
+        "edge": "e225"
+      }
+    ],
+    "n96": [
+      {
+        "to": "n97",
+        "to_name": "Innovation Building - South Entrance",
+        "weight": 181.8,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 281.8,
+        "edge": "e80"
+      },
+      {
+        "to": "n103",
+        "to_name": "节点 92",
+        "weight": 40.6,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 40.6,
+        "edge": "e81"
+      }
+    ],
+    "n97": [
+      {
+        "to": "n96",
+        "to_name": "Innovation Building - North Entrance",
+        "weight": 181.8,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 281.8,
+        "edge": "e80"
+      },
+      {
+        "to": "n141",
+        "to_name": "节点 129",
+        "weight": 143.59,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 143.59,
+        "edge": "e175"
+      }
+    ],
+    "n98": [
+      {
+        "to": "n99",
+        "to_name": "节点 88",
+        "weight": 398.64,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 398.64,
+        "edge": "e72"
+      },
+      {
+        "to": "n91",
+        "to_name": "节点 80",
+        "weight": 173.75,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 173.75,
+        "edge": "e73"
+      },
+      {
+        "to": "n94",
+        "to_name": "节点 83",
+        "weight": 156.42,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 156.42,
+        "edge": "e92"
+      },
+      {
+        "to": "n101",
+        "to_name": "节点 90",
+        "weight": 102.06,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 102.06,
+        "edge": "e105"
+      }
+    ],
+    "n99": [
+      {
+        "to": "n52",
+        "to_name": "节点 47",
+        "weight": 193.03,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 193.03,
+        "edge": "e70"
+      },
+      {
+        "to": "n69",
+        "to_name": "Academic Building - East Entrance",
+        "weight": 150.56,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 250.56,
+        "edge": "e71"
+      },
+      {
+        "to": "n98",
+        "to_name": "节点 87",
+        "weight": 398.64,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 398.64,
+        "edge": "e72"
+      }
+    ],
+    "n100": [
+      {
+        "to": "n102",
+        "to_name": "节点 91",
+        "weight": 81.5,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 81.5,
+        "edge": "e107"
+      },
+      {
+        "to": "n45",
+        "to_name": "WDR - West Entrance",
+        "weight": 85.36,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 185.36,
+        "edge": "e108"
+      },
+      {
+        "to": "n142",
+        "to_name": "节点 130",
+        "weight": 246.97,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 246.97,
+        "edge": "e179"
+      }
+    ],
+    "n101": [
+      {
+        "to": "n98",
+        "to_name": "节点 87",
+        "weight": 102.06,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 102.06,
+        "edge": "e105"
+      },
+      {
+        "to": "n102",
+        "to_name": "节点 91",
+        "weight": 80.24,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 80.24,
+        "edge": "e106"
+      },
+      {
+        "to": "n104",
+        "to_name": "节点 93",
+        "weight": 656.75,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 656.75,
+        "edge": "e147"
+      }
+    ],
+    "n102": [
+      {
+        "to": "n101",
+        "to_name": "节点 90",
+        "weight": 80.24,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 80.24,
+        "edge": "e106"
+      },
+      {
+        "to": "n100",
+        "to_name": "节点 89",
+        "weight": 81.5,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 81.5,
+        "edge": "e107"
+      },
+      {
+        "to": "n136",
+        "to_name": "节点 124",
+        "weight": 341.15,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 341.15,
+        "edge": "e170"
+      }
+    ],
+    "n103": [
+      {
+        "to": "n96",
+        "to_name": "Innovation Building - North Entrance",
+        "weight": 40.6,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 140.6,
+        "edge": "e81"
+      },
+      {
+        "to": "n104",
+        "to_name": "节点 93",
+        "weight": 70.83,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 70.83,
+        "edge": "e82"
+      },
+      {
+        "to": "n136",
+        "to_name": "节点 124",
+        "weight": 340.79,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 340.79,
+        "edge": "e169"
+      }
+    ],
+    "n104": [
+      {
+        "to": "n103",
+        "to_name": "节点 92",
+        "weight": 70.83,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 70.83,
+        "edge": "e82"
+      },
+      {
+        "to": "n105",
+        "to_name": "节点 94",
+        "weight": 189.75,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 189.75,
+        "edge": "e83"
+      },
+      {
+        "to": "n101",
+        "to_name": "节点 90",
+        "weight": 656.75,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 656.75,
+        "edge": "e147"
+      },
+      {
+        "to": "n135",
+        "to_name": "节点 123",
+        "weight": 371.51,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 371.51,
+        "edge": "e162"
+      }
+    ],
+    "n105": [
+      {
+        "to": "n104",
+        "to_name": "节点 93",
+        "weight": 189.75,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 189.75,
+        "edge": "e83"
+      },
+      {
+        "to": "n106",
+        "to_name": "节点 95",
+        "weight": 225.59,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 225.59,
+        "edge": "e84"
+      }
+    ],
+    "n106": [
+      {
+        "to": "n105",
+        "to_name": "节点 94",
+        "weight": 225.59,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 225.59,
+        "edge": "e84"
+      },
+      {
+        "to": "n71",
+        "to_name": "Conference Center - East Entrance",
+        "weight": 347.64,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 447.64,
+        "edge": "e85"
+      }
+    ],
+    "n107": [
+      {
+        "to": "n71",
+        "to_name": "Conference Center - East Entrance",
+        "weight": 168.63,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 268.63,
+        "edge": "e87"
+      },
+      {
+        "to": "n144",
+        "to_name": "节点 132",
+        "weight": 406.74,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 406.74,
+        "edge": "e186"
+      }
+    ],
+    "n108": [
+      {
+        "to": "n81",
+        "to_name": "节点 70",
+        "weight": 348.62,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 348.62,
+        "edge": "e94"
+      },
+      {
+        "to": "n82",
+        "to_name": "节点 71",
+        "weight": 150.15,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 150.15,
+        "edge": "e95"
+      },
+      {
+        "to": "n123",
+        "to_name": "节点 111",
+        "weight": 119.84,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 119.84,
+        "edge": "e142"
+      }
+    ],
+    "n109": [
+      {
+        "to": "n83",
+        "to_name": "节点 72",
+        "weight": 134.8,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 134.8,
+        "edge": "e104"
+      },
+      {
+        "to": "n123",
+        "to_name": "节点 111",
+        "weight": 308.67,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 308.67,
+        "edge": "e143"
+      },
+      {
+        "to": "n130",
+        "to_name": "节点 118",
+        "weight": 119.9,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 119.9,
+        "edge": "e159"
+      }
+    ],
+    "n110": [
+      {
+        "to": "n46",
+        "to_name": "WDR - South Entrance",
+        "weight": 134.13,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 234.13,
+        "edge": "e112"
+      },
+      {
+        "to": "n111",
+        "to_name": "节点 100",
+        "weight": 201.17,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 201.17,
+        "edge": "e113"
+      },
+      {
+        "to": "n142",
+        "to_name": "节点 130",
+        "weight": 159.49,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 159.49,
+        "edge": "e178"
+      }
+    ],
+    "n111": [
+      {
+        "to": "n110",
+        "to_name": "节点 99",
+        "weight": 201.17,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 201.17,
+        "edge": "e113"
+      },
+      {
+        "to": "n48",
+        "to_name": "节点 43",
+        "weight": 395.06,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 395.06,
+        "edge": "e114"
+      },
+      {
+        "to": "n51",
+        "to_name": "节点 46",
+        "weight": 473.96,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 473.96,
+        "edge": "e115"
+      }
+    ],
+    "n112": [
+      {
+        "to": "n10",
+        "to_name": "节点 10",
+        "weight": 217.99,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 217.99,
+        "edge": "e116"
+      },
+      {
+        "to": "n70",
+        "to_name": "Academic Building - West Entrance",
+        "weight": 214.26,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 314.26,
+        "edge": "e117"
+      },
+      {
+        "to": "n138",
+        "to_name": "节点 126",
+        "weight": 114.52,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 114.52,
+        "edge": "e174"
+      }
+    ],
+    "n113": [
+      {
+        "to": "n14",
+        "to_name": "节点 2",
+        "weight": 306.18,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 306.18,
+        "edge": "e118"
+      },
+      {
+        "to": "n21",
+        "to_name": "Building A - North Entrance",
+        "weight": 72.13,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 172.13,
+        "edge": "e120"
+      },
+      {
+        "to": "n114",
+        "to_name": "节点 102",
+        "weight": 48.28,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 48.28,
+        "edge": "e121"
+      }
+    ],
+    "n114": [
+      {
+        "to": "n113",
+        "to_name": "节点 21",
+        "weight": 48.28,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 48.28,
+        "edge": "e121"
+      },
+      {
+        "to": "n23",
+        "to_name": "Building B - South Entrance",
+        "weight": 65.14,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 165.14,
+        "edge": "e122"
+      }
+    ],
+    "n115": [
+      {
+        "to": "n116",
+        "to_name": "节点 104",
+        "weight": 75.69,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 75.69,
+        "edge": "e126"
+      },
+      {
+        "to": "n57",
+        "to_name": "Building H - South Entrance",
+        "weight": 62,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 162,
+        "edge": "e127"
+      }
+    ],
+    "n116": [
+      {
+        "to": "n61",
+        "to_name": "节点 56",
+        "weight": 251.03,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 251.03,
+        "edge": "e124"
+      },
+      {
+        "to": "n62",
+        "to_name": "节点 57",
+        "weight": 292.85,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 292.85,
+        "edge": "e125"
+      },
+      {
+        "to": "n115",
+        "to_name": "Building H - North Entrance",
+        "weight": 75.69,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 175.69,
+        "edge": "e126"
+      }
+    ],
+    "n117": [
+      {
+        "to": "n62",
+        "to_name": "节点 57",
+        "weight": 82.15,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 82.15,
+        "edge": "e128"
+      },
+      {
+        "to": "n118",
+        "to_name": "节点 106",
+        "weight": 206.71,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 206.71,
+        "edge": "e129"
+      },
+      {
+        "to": "n64",
+        "to_name": "North Takeaway Locker",
+        "weight": 58.22,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 58.22,
+        "edge": "e131"
+      }
+    ],
+    "n118": [
+      {
+        "to": "n117",
+        "to_name": "节点 105",
+        "weight": 206.71,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 206.71,
+        "edge": "e129"
+      },
+      {
+        "to": "n74",
+        "to_name": "Building D - North Entrance",
+        "weight": 68.83,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 168.83,
+        "edge": "e130"
+      },
+      {
+        "to": "n63",
+        "to_name": "节点 58",
+        "weight": 275.65,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 275.65,
+        "edge": "e200"
+      }
+    ],
+    "n119": [
+      {
+        "to": "n121",
+        "to_name": "节点 109",
+        "weight": 63.7,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 63.7,
+        "edge": "e136"
+      },
+      {
+        "to": "n120",
+        "to_name": "Visitor Center - North Entrance",
+        "weight": 129.66,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 229.66,
+        "edge": "e137"
+      }
+    ],
+    "n120": [
+      {
+        "to": "n119",
+        "to_name": "Visitor Center - South Entrance",
+        "weight": 129.66,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 229.66,
+        "edge": "e137"
+      },
+      {
+        "to": "n40",
+        "to_name": "Administration Building - South Entrance",
+        "weight": 177.45,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 277.45,
+        "edge": "e138"
+      },
+      {
+        "to": "n122",
+        "to_name": "节点 110",
+        "weight": 140.29,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 140.29,
+        "edge": "e140"
+      }
+    ],
+    "n121": [
+      {
+        "to": "n66",
+        "to_name": "节点 61",
+        "weight": 142.84,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 142.84,
+        "edge": "e135"
+      },
+      {
+        "to": "n119",
+        "to_name": "Visitor Center - South Entrance",
+        "weight": 63.7,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 163.7,
+        "edge": "e136"
+      }
+    ],
+    "n122": [
+      {
+        "to": "n66",
+        "to_name": "节点 61",
+        "weight": 202.45,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 202.45,
+        "edge": "e139"
+      },
+      {
+        "to": "n120",
+        "to_name": "Visitor Center - North Entrance",
+        "weight": 140.29,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 240.29,
+        "edge": "e140"
+      },
+      {
+        "to": "n130",
+        "to_name": "节点 118",
+        "weight": 261.88,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 261.88,
+        "edge": "e160"
+      }
+    ],
+    "n123": [
+      {
+        "to": "n108",
+        "to_name": "节点 97",
+        "weight": 119.84,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 119.84,
+        "edge": "e142"
+      },
+      {
+        "to": "n109",
+        "to_name": "节点 98",
+        "weight": 308.67,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 308.67,
+        "edge": "e143"
+      },
+      {
+        "to": "n41",
+        "to_name": "Library - East Entrance",
+        "weight": 89.04,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 189.04,
+        "edge": "e144"
+      }
+    ],
+    "n124": [
+      {
+        "to": "n9",
+        "to_name": "Residence Hall",
+        "weight": 458.38,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 458.38,
+        "edge": "e149"
+      },
+      {
+        "to": "n131",
+        "to_name": "节点 119",
+        "weight": 324.99,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 324.99,
+        "edge": "e185"
+      },
+      {
+        "to": "n159",
+        "to_name": "节点 3",
+        "weight": 62.41,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 62.41,
+        "edge": "e220"
+      }
+    ],
+    "n125": [
+      {
+        "to": "n15",
+        "to_name": "节点 4",
+        "weight": 66.19,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 66.19,
+        "edge": "e151"
+      },
+      {
+        "to": "n126",
+        "to_name": "Building F - North Entrance",
+        "weight": 72.95,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 172.95,
+        "edge": "e152"
+      }
+    ],
+    "n126": [
+      {
+        "to": "n125",
+        "to_name": "Building F - South Entrance",
+        "weight": 72.95,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 172.95,
+        "edge": "e152"
+      },
+      {
+        "to": "n128",
+        "to_name": "节点 116",
+        "weight": 30.52,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 30.52,
+        "edge": "e156"
+      }
+    ],
+    "n127": [
+      {
+        "to": "n38",
+        "to_name": "节点 33",
+        "weight": 255.15,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 255.15,
+        "edge": "e153"
+      },
+      {
+        "to": "n78",
+        "to_name": "Building G - South Entrance",
+        "weight": 51.65,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 151.65,
+        "edge": "e154"
+      },
+      {
+        "to": "n128",
+        "to_name": "节点 116",
+        "weight": 112.35,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 112.35,
+        "edge": "e155"
+      }
+    ],
+    "n128": [
+      {
+        "to": "n127",
+        "to_name": "Red Cage",
+        "weight": 112.35,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 112.35,
+        "edge": "e155"
+      },
+      {
+        "to": "n126",
+        "to_name": "Building F - North Entrance",
+        "weight": 30.52,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 130.52,
+        "edge": "e156"
+      },
+      {
+        "to": "n54",
+        "to_name": "节点 49",
+        "weight": 182.99,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 182.99,
+        "edge": "e157"
+      },
+      {
+        "to": "n78",
+        "to_name": "Building G - South Entrance",
+        "weight": 90.71,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 190.71,
+        "edge": "e206"
+      }
+    ],
+    "n129": [
+      {
+        "to": "n130",
+        "to_name": "节点 118",
+        "weight": 34.16,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 34.16,
+        "edge": "e158"
+      },
+      {
+        "to": "n40",
+        "to_name": "Administration Building - South Entrance",
+        "weight": 148.33,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 248.33,
+        "edge": "e211"
+      }
+    ],
+    "n130": [
+      {
+        "to": "n129",
+        "to_name": "Administration Building - West Entrance",
+        "weight": 34.16,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 134.16,
+        "edge": "e158"
+      },
+      {
+        "to": "n109",
+        "to_name": "节点 98",
+        "weight": 119.9,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 119.9,
+        "edge": "e159"
+      },
+      {
+        "to": "n122",
+        "to_name": "节点 110",
+        "weight": 261.88,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 261.88,
+        "edge": "e160"
+      }
+    ],
+    "n131": [
+      {
+        "to": "n59",
+        "to_name": "节点 54",
+        "weight": 364.07,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 364.07,
+        "edge": "e184"
+      },
+      {
+        "to": "n124",
+        "to_name": "节点 112",
+        "weight": 324.99,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 324.99,
+        "edge": "e185"
+      },
+      {
+        "to": "n157",
+        "to_name": "Service Building 1",
+        "weight": 175.35,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 175.35,
+        "edge": "e216"
+      }
+    ],
+    "n132": [
+      {
+        "to": "n8",
+        "to_name": "节点 8",
+        "weight": 199.59,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 199.59,
+        "edge": "e167"
+      },
+      {
+        "to": "n144",
+        "to_name": "节点 132",
+        "weight": 147.54,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 147.54,
+        "edge": "e187"
+      }
+    ],
+    "n133": [
+      {
+        "to": "n134",
+        "to_name": "节点 122",
+        "weight": 129.74,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 129.74,
+        "edge": "e165"
+      },
+      {
+        "to": "n144",
+        "to_name": "节点 132",
+        "weight": 43.08,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 43.08,
+        "edge": "e188"
+      }
+    ],
+    "n134": [
+      {
+        "to": "n72",
+        "to_name": "Conference Center - West Entrance",
+        "weight": 293.38,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 393.38,
+        "edge": "e164"
+      },
+      {
+        "to": "n133",
+        "to_name": "节点 121",
+        "weight": 129.74,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 129.74,
+        "edge": "e165"
+      },
+      {
+        "to": "n73",
+        "to_name": "West Gate",
+        "weight": 196.34,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 196.34,
+        "edge": "e168"
+      }
+    ],
+    "n135": [
+      {
+        "to": "n104",
+        "to_name": "节点 93",
+        "weight": 371.51,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 371.51,
+        "edge": "e162"
+      },
+      {
+        "to": "n72",
+        "to_name": "Conference Center - West Entrance",
+        "weight": 522.53,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 622.53,
+        "edge": "e163"
+      },
+      {
+        "to": "n158",
+        "to_name": "节点 1",
+        "weight": 337.29,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 337.29,
+        "edge": "e218"
+      }
+    ],
+    "n136": [
+      {
+        "to": "n103",
+        "to_name": "节点 92",
+        "weight": 340.79,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 340.79,
+        "edge": "e169"
+      },
+      {
+        "to": "n102",
+        "to_name": "节点 91",
+        "weight": 341.15,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 341.15,
+        "edge": "e170"
+      }
+    ],
+    "n137": [
+      {
+        "to": "n138",
+        "to_name": "节点 126",
+        "weight": 480.2,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 480.2,
+        "edge": "e172"
+      }
+    ],
+    "n138": [
+      {
+        "to": "n139",
+        "to_name": "节点 127",
+        "weight": 462.07,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 462.07,
+        "edge": "e171"
+      },
+      {
+        "to": "n137",
+        "to_name": "节点 125",
+        "weight": 480.2,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 480.2,
+        "edge": "e172"
+      },
+      {
+        "to": "n70",
+        "to_name": "Academic Building - West Entrance",
+        "weight": 123.4,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 223.4,
+        "edge": "e173"
+      },
+      {
+        "to": "n112",
+        "to_name": "节点 101",
+        "weight": 114.52,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 114.52,
+        "edge": "e174"
+      }
+    ],
+    "n139": [
+      {
+        "to": "n138",
+        "to_name": "节点 126",
+        "weight": 462.07,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 462.07,
+        "edge": "e171"
+      }
+    ],
+    "n140": [
+      {
+        "to": "n141",
+        "to_name": "节点 129",
+        "weight": 293.2,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 293.2,
+        "edge": "e176"
+      }
+    ],
+    "n141": [
+      {
+        "to": "n97",
+        "to_name": "Innovation Building - South Entrance",
+        "weight": 143.59,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 243.59,
+        "edge": "e175"
+      },
+      {
+        "to": "n140",
+        "to_name": "South East Gate",
+        "weight": 293.2,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 293.2,
+        "edge": "e176"
+      },
+      {
+        "to": "n142",
+        "to_name": "节点 130",
+        "weight": 696.46,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 696.46,
+        "edge": "e177"
+      }
+    ],
+    "n142": [
+      {
+        "to": "n141",
+        "to_name": "节点 129",
+        "weight": 696.46,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 696.46,
+        "edge": "e177"
+      },
+      {
+        "to": "n110",
+        "to_name": "节点 99",
+        "weight": 159.49,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 159.49,
+        "edge": "e178"
+      },
+      {
+        "to": "n100",
+        "to_name": "节点 89",
+        "weight": 246.97,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 246.97,
+        "edge": "e179"
+      }
+    ],
+    "n143": [
+      {
+        "to": "n81",
+        "to_name": "节点 70",
+        "weight": 124.56,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 124.56,
+        "edge": "e180"
+      },
+      {
+        "to": "n90",
+        "to_name": "节点 79",
+        "weight": 213.78,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 213.78,
+        "edge": "e181"
+      },
+      {
+        "to": "n18",
+        "to_name": "节点 13",
+        "weight": 298.57,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 298.57,
+        "edge": "e182"
+      }
+    ],
+    "n144": [
+      {
+        "to": "n107",
+        "to_name": "节点 96",
+        "weight": 406.74,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 406.74,
+        "edge": "e186"
+      },
+      {
+        "to": "n132",
+        "to_name": "节点 120",
+        "weight": 147.54,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 147.54,
+        "edge": "e187"
+      },
+      {
+        "to": "n133",
+        "to_name": "节点 121",
+        "weight": 43.08,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 43.08,
+        "edge": "e188"
+      }
+    ],
+    "n145": [
+      {
+        "to": "n147",
+        "to_name": "节点 134",
+        "weight": 202.69,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 202.69,
+        "edge": "e190"
+      },
+      {
+        "to": "n146",
+        "to_name": "CCTE - West Entrance",
+        "weight": 60.87,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 160.87,
+        "edge": "e191"
+      }
+    ],
+    "n146": [
+      {
+        "to": "n145",
+        "to_name": "CCTW - East Entrance",
+        "weight": 60.87,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 160.87,
+        "edge": "e191"
+      },
+      {
+        "to": "n26",
+        "to_name": "CCTE South Entrance",
+        "weight": 154.86,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 254.86,
+        "edge": "e192"
+      },
+      {
+        "to": "n25",
+        "to_name": "CCTE North Entrance",
+        "weight": 186.46,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 286.46,
+        "edge": "e193"
+      }
+    ],
+    "n147": [
+      {
+        "to": "n28",
+        "to_name": "CCTW - South Entrance",
+        "weight": 93.54,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 193.54,
+        "edge": "e189"
+      },
+      {
+        "to": "n145",
+        "to_name": "CCTW - East Entrance",
+        "weight": 202.69,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 302.69,
+        "edge": "e190"
+      },
+      {
+        "to": "n27",
+        "to_name": "CCTW - North Entrance",
+        "weight": 110.22,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 210.22,
+        "edge": "e196"
+      }
+    ],
+    "n148": [
+      {
+        "to": "n51",
+        "to_name": "节点 46",
+        "weight": 290.88,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 290.88,
+        "edge": "e198"
+      }
+    ],
+    "n149": [
+      {
+        "to": "n66",
+        "to_name": "节点 61",
+        "weight": 279.7,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 279.7,
+        "edge": "e199"
+      }
+    ],
+    "n150": [
+      {
+        "to": "n63",
+        "to_name": "节点 58",
+        "weight": 447.07,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 447.07,
+        "edge": "e201"
+      }
+    ],
+    "n152": [
+      {
+        "to": "n10",
+        "to_name": "节点 10",
+        "weight": 65.05,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 65.05,
+        "edge": "e203"
+      }
+    ],
+    "n153": [
+      {
+        "to": "n23",
+        "to_name": "Building B - South Entrance",
+        "weight": 78.6,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 178.6,
+        "edge": "e204"
+      },
+      {
+        "to": "n76",
+        "to_name": "节点 66",
+        "weight": 55.66,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 55.66,
+        "edge": "e205"
+      }
+    ],
+    "n154": [
+      {
+        "to": "n13",
+        "to_name": "Building E - North Entrance",
+        "weight": 88.38,
+        "unit": "px",
+        "enter_cost": 100,
+        "cost": 188.38,
+        "edge": "e207"
+      },
+      {
+        "to": "n16",
+        "to_name": "节点 5",
+        "weight": 35.82,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 35.82,
+        "edge": "e208"
+      }
+    ],
+    "n155": [
+      {
+        "to": "n19",
+        "to_name": "节点 14",
+        "weight": 109.85,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 109.85,
+        "edge": "e212"
+      },
+      {
+        "to": "n18",
+        "to_name": "节点 13",
+        "weight": 81.79,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 81.79,
+        "edge": "e213"
+      }
+    ],
+    "n156": [
+      {
+        "to": "n58",
+        "to_name": "节点 53",
+        "weight": 81.32,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 81.32,
+        "edge": "e214"
+      },
+      {
+        "to": "n79",
+        "to_name": "节点 68",
+        "weight": 114.06,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 114.06,
+        "edge": "e215"
+      }
+    ],
+    "n157": [
+      {
+        "to": "n131",
+        "to_name": "节点 119",
+        "weight": 175.35,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 175.35,
+        "edge": "e216"
+      },
+      {
+        "to": "n59",
+        "to_name": "节点 54",
+        "weight": 242.5,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 242.5,
+        "edge": "e217"
+      }
+    ],
+    "n158": [
+      {
+        "to": "n135",
+        "to_name": "节点 123",
+        "weight": 337.29,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 337.29,
+        "edge": "e218"
+      }
+    ],
+    "n159": [
+      {
+        "to": "n124",
+        "to_name": "节点 112",
+        "weight": 62.41,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 62.41,
+        "edge": "e220"
+      },
+      {
+        "to": "n161",
+        "to_name": "节点 9",
+        "weight": 200.9,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 200.9,
+        "edge": "e223"
+      }
+    ],
+    "n160": [
+      {
+        "to": "n53",
+        "to_name": "节点 48",
+        "weight": 116.85,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 116.85,
+        "edge": "e219"
+      },
+      {
+        "to": "n52",
+        "to_name": "节点 47",
+        "weight": 72.37,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 72.37,
+        "edge": "e222"
+      },
+      {
+        "to": "n161",
+        "to_name": "节点 9",
+        "weight": 161.92,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 161.92,
+        "edge": "e224"
+      }
+    ],
+    "n161": [
+      {
+        "to": "n159",
+        "to_name": "节点 3",
+        "weight": 200.9,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 200.9,
+        "edge": "e223"
+      },
+      {
+        "to": "n160",
+        "to_name": "节点 7",
+        "weight": 161.92,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 161.92,
+        "edge": "e224"
+      },
+      {
+        "to": "n95",
+        "to_name": "节点 84",
+        "weight": 63.49,
+        "unit": "px",
+        "enter_cost": 0,
+        "cost": 63.49,
+        "edge": "e225"
+      }
+    ]
+  },
+  "adjacency_note": "weight = walking distance. enter_cost = gate_cost of the node you arrive at. cost = weight + enter_cost, the cost of that one step. Neither endpoint of a route is charged, so when you relax the step that lands on the destination, do not add its enter_cost (equivalently: sum cost over the whole route, then subtract the last step's enter_cost)."
+}

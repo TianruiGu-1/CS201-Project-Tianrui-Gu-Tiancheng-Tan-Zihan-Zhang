@@ -1,0 +1,6 @@
+# Build output -- the submission folder is meant to hold sources only.
+*.class
+DKUApp.zip
+
+# macOS
+.DS_Store
