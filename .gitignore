@@ -4,3 +4,13 @@ DKUApp.zip
 
 # macOS
 .DS_Store
+
+# Kept in the working folder but not published. This repository carries the
+# deliverable set only: the code, the two generators, the graph data, the
+# brief and the campus map.
+AI_Usage_Log.md
+Map_Data.md
+Presentation_Guide.md
+Project_Structure.md
+slide_gate_comparison.png
+slide_waypoints.png
